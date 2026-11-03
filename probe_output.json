@@ -1,0 +1,551 @@
+{
+ "ts": "2026-11-03 09:03:22 UTC",
+ "targets": [
+  {
+   "url": "https://www.adx.ae/",
+   "status": 200,
+   "title": "ADX | Abu Dhabi Securities Exchange",
+   "text": "Tue, 03 NOV 2026 9:03 AM (GMT +00:00)\nFINTECH.TV Studio\nAccessibility\nSkip to Content\nعربي\nLogin\nInvestors\nIssuers\nMembers & Participants\nPost Trade Services\nMarket Data Services\nTabadul\nAbout ADX\nMARKET WATCH\nADX Expands Global Investor Access to South Korea's Leading Industries: Manufacturing, Technology, Defense, AI Chips and Aerospace.\nRound 5: Trade on ADX and Get a Chance to Win 1 Million Etihad Guest Air Miles\nStart competing\nADX welcomes FAB's AED 1 billion Digitally Native Green Notes to the exchange.\nLearn more\nADX Investor Relations Guide\nDownload the guide\nMarket Status\nTrading\nFADGI\n9,504.07\n+13.35\n(+0.141%)\n\t\n\t\nFADX15\n10,087.07\n+29.16\n(+0.290%)\n\t\n\t\nFADGMI\n460.01\n+1.57\n(+0.342%)\n\t\n\t\nPrevious\nNext\nDaily Trading Summary\nValue (AED)\n492,729,203.756\nVolume\n116,311,881\nNumber Of Trades\n12,059\nMarket Cap (AED)\n2,492,664,105,803\nNegotiated & Big Blocks Trades\nView All\nValue (AED)\n0\nVolume\n0\nTrades\n0\nAdvisory Alert:Abu Dhabi Securities Exchange (ADX) alerts the public and stakeholders to remain vigilant against fraudulent impersonations via various channels and urges them to avoid sharing information or funds and to report suspicious activity to authorities, contacting ADX Compliance if uncertain.Read more.\n2POINTZERO1.9100.000(0.000%)ABNIC2.4000.000(0.000%)ADAVIATION5.670-0.040(-0.701%)ADCB16.1800.160(0.999%)ADIB20.5000.400(1.990%)ADID2.0100.050(2.551%)ADNH0.4580.010(2.232%)ADNHC0.6070.002(0.331%)ADNIC6.850-0.050(-0.725%)ADNOCDIST3.780-0.010(-0.264%)ADNOCDRILL5.860-0.08",
+   "xhr": [
+    {
+     "url": "https://www.adx.ae/_next/static/media/chart-widget-left.d882fb6c.svg",
+     "status": 200,
+     "snippet": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path opacity=\"0.4\" d=\"M10.0013 1.03906C14.9489 1.03906 18.9596 5.04985 18.9596 9.99741C18.9596 14.9449 14.9489 18.9557 10.0013 18.9557C5.05375 18.9557 1.04297 14.9449 1.04297 9.99741C1.04297 5.04985 5.05375 1.03906 10.0013 1.03906Z\" fill=\"white\"/>\n<path d=\"M9.59614 10.0026C9.60139 10.0164 9.60856 10.03"
+    },
+    {
+     "url": "https://www.adx.ae/-/media/adx/topnavigation/adx-logo/adx-white-logo.svg",
+     "status": 200,
+     "snippet": "<svg width=\"617\" height=\"117\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M163.145 3h-11.989l34.989 55.495-35.26 55.849h11.854l35.156-55.818L163.145 3Z\" fill=\"#5ABBE9\"/><path d=\"M235.802 3h-12.12l-24.521 38.693 6.042 9.234L235.802 3Zm-36.641 72.563 24.698 38.781h11.943l-30.713-48.057-5.928 9.275ZM25.578 78.63l36.417.021-4.031-9.963H29.37l.057-.136 19.781-49.177c.052.13 38.125 94.797 38"
+    },
+    {
+     "url": "https://www.adx.ae/-/media/adx/topnavigation/adx-logo/adx-dark-logo.svg",
+     "status": 200,
+     "snippet": "<svg width=\"617\" height=\"117\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M163.145 3h-11.989l34.989 55.495-35.26 55.849h11.854l35.156-55.818L163.145 3Z\" fill=\"#5ABBE9\"/><path d=\"M235.802 3h-12.12l-24.521 38.693 6.042 9.234L235.802 3Zm-36.641 72.563 24.698 38.781h11.943l-30.713-48.057-5.928 9.275ZM25.578 78.63l36.417.021-4.031-9.963H29.37l.057-.136 19.781-49.177c.052.13 38.125 94.797 38"
+    },
+    {
+     "url": "https://www.adx.ae/-/media/adx/topnavigation/fintech-tv-studio.svg",
+     "status": 200,
+     "snippet": "<svg width=\"20\" height=\"20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M1.667 11.667c0-3.143 0-4.714.976-5.69C3.62 5 5.191 5 8.333 5h3.334c3.142 0 4.714 0 5.69.976.976.977.976 2.548.976 5.69 0 3.143 0 4.715-.976 5.691s-2.548.976-5.69.976H8.333c-3.142 0-4.714 0-5.69-.976s-.976-2.548-.976-5.69Z\" stroke=\"#fff\" stroke-width=\"1.25\" stroke-linecap=\"round\"/><path d=\"M12.464 11.949c-.115.448-"
+    },
+    {
+     "url": "https://www.adx.ae/_next/static/media/Earth.5712b293.svg",
+     "status": 200,
+     "snippet": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M10.0013 18.3307C5.39893 18.3307 1.66797 14.5997 1.66797 9.9974C1.66797 7.67028 2.62184 5.56595 4.15994 4.05408M10.0013 18.3307C9.1988 17.7361 9.32689 17.0436 9.72947 16.3513C10.3485 15.2869 10.3485 15.2869 10.3485 13.8677C10.3485 12.4486 11.1918 11.7831 14.168 12.3783C15.5052 12.6458 16.4797 1"
+    },
+    {
+     "url": "https://www.adx.ae/_next/static/media/chart-widget-right.d9d5cbc2.svg",
+     "status": 200,
+     "snippet": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path opacity=\"0.4\" d=\"M9.9987 18.9609C5.05112 18.9609 1.04037 14.9502 1.04037 10.0026C1.04037 5.05509 5.05112 1.04425 9.9987 1.04426C14.9462 1.04426 18.957 5.05509 18.957 10.0026C18.957 14.9502 14.9462 18.9609 9.9987 18.9609Z\" fill=\"white\"/>\n<path d=\"M10.4039 9.99738C10.3986 9.98363 10.3914 9.9663 10.3"
+    },
+    {
+     "url": "https://www.adx.ae/_next/static/media/Wallet.5bcd6007.svg",
+     "status": 200,
+     "snippet": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 14 14\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M11.0833 4.08333V2.33333C11.0833 2.17862 11.0219 2.03025 10.9125 1.92085C10.8031 1.81146 10.6547 1.75 10.5 1.75H2.91667C2.60725 1.75 2.3105 1.87292 2.09171 2.09171C1.87292 2.3105 1.75 2.60725 1.75 2.91667C1.75 3.22609 1.87292 3.52283 2.09171 3.74162C2.3105 3.96042 2.60725 4.08333 2.91667 4.0833"
+    },
+    {
+     "url": "https://www.adx.ae/_next/static/media/Warning.3a477c9c.svg",
+     "status": 200,
+     "snippet": "<svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_15898_121795)\">\n<path d=\"M7.9987 14.6693C11.6806 14.6693 14.6654 11.6845 14.6654 8.0026C14.6654 4.32071 11.6806 1.33594 7.9987 1.33594C4.3168 1.33594 1.33203 4.32071 1.33203 8.0026C1.33203 11.6845 4.3168 14.6693 7.9987 14.6693Z\" stroke=\"#0A0A0A\" stroke-width=\"1.33333\" stroke-lin"
+    },
+    {
+     "url": "https://www.adx.ae/_next/static/media/quick-links-icon.888457ae.svg",
+     "status": 200,
+     "snippet": "<svg width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M16.0771 21.5606L9.82726 27.8105C9.07058 28.5408 8.06001 28.9489 7.00839 28.9489C5.95678 28.9489 4.94621 28.5408 4.18953 27.8105C3.81841 27.4408 3.52394 27.0015 3.32301 26.5178C3.12208 26.0341 3.01865 25.5154 3.01865 24.9916C3.01865 24.4678 3.12208 23.9492 3.32301 23.4654C3.52394 22.9817 3.8184"
+    },
+    {
+     "url": "https://www.adx.ae/_next/static/media/HealthLine.0b0e30a6.svg",
+     "status": 200,
+     "snippet": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 14 14\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M12.8307 7.00521H11.3841C11.1291 7.00466 10.881 7.08764 10.6777 7.24144C10.4744 7.39524 10.3271 7.61141 10.2582 7.85688L8.8874 12.7335C8.87856 12.7638 8.86014 12.7904 8.8349 12.8094C8.80965 12.8283 8.77895 12.8385 8.7474 12.8385C8.71584 12.8385 8.68514 12.8283 8.6599 12.8094C8.63465 12.7904 8.6"
+    },
+    {
+     "url": "https://www.adx.ae/-/media/adx/beneficiary/no-record.svg?h=134&iar=0&w=124&hash=F8435844E53FFADBA68C00B2B6ECFD57",
+     "status": 200,
+     "snippet": "<svg width=\"124\" height=\"134\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M16.162 1.568h-3.46a.784.784 0 0 1 0-1.568h3.46a.784.784 0 1 1 0 1.568Zm7.784 0h-3.46a.784.784 0 0 1 0-1.568h3.46a.784.784 0 1 1 0 1.568Zm7.784 0h-3.46a.784.784 0 0 1 0-1.568h3.46a.784.784 0 1 1 0 1.568Zm7.784 0h-3.46a.784.784 0 0 1 0-1.568h3.46a.784.784 0 0 1 0 1.568Zm7.78"
+    },
+    {
+     "url": "https://www.adx.ae/_next/static/media/Container.1668526f.svg",
+     "status": 200,
+     "snippet": "<svg width=\"14\" height=\"14\" viewBox=\"0 0 14 14\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_16043_599222)\">\n<path d=\"M7.48736 1.27708C7.33537 1.20775 7.17025 1.17188 7.00319 1.17188C6.83613 1.17188 6.67102 1.20775 6.51903 1.27708L1.51986 3.55208C1.41635 3.59773 1.32834 3.67248 1.26656 3.76725C1.20477 3.86202 1.17188 3.9727 1.17188 4.08583C1.17188 4.19896 1.20477 4.3096"
+    },
+    {
+     "url": "https://www.adx.ae/_next/static/media/Login.307d52ac.svg",
+     "status": 200,
+     "snippet": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M2.5 6.36053C3.85062 3.58044 6.70149 1.66406 9.99995 1.66406C14.6024 1.66406 18.3333 5.39502 18.3333 9.9974C18.3333 14.5997 14.6024 18.3307 9.99995 18.3307C6.70149 18.3307 3.85062 16.4144 2.5 13.6342\" stroke=\"white\" stroke-width=\"1.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M"
+    },
+    {
+     "url": "https://www.adx.ae/-/jssmedia/adx/quick-links/calender.svg?iar=0&hash=1D26E6D1F1A475501B4FA16BF76B7D29",
+     "status": 200,
+     "snippet": "<svg width=\"34\" height=\"34\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M2.778 9.889h28.444M24.111 1v3.556M9.889 1v3.556M1 6.333a3.556 3.556 0 0 1 3.556-3.555h24.888A3.556 3.556 0 0 1 33 6.333v23.112A3.556 3.556 0 0 1 29.444 33H4.556A3.556 3.556 0 0 1 1 29.445V6.333Z\" stroke=\"#5EB3E4\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M24.111 25h.004v.004h-.004V2"
+    },
+    {
+     "url": "https://www.adx.ae/-/jssmedia/adx/quick-links/companies.svg?iar=0&hash=D3707785F9DB012567FA90E538945959",
+     "status": 200,
+     "snippet": "<svg width=\"36\" height=\"36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M33.158 31.316h-1.526V9.606a1.826 1.826 0 0 0-.314-1.11l-.827.563.827-.562a1.825 1.825 0 0 0-.906-.696L24.28 5.237l-1.07-.447V2.842c0-.488-.194-.957-.539-1.302l-.707.707.707-.707A1.842 1.842 0 0 0 21.368 1H6.211a1.842 1.842 0 0 0-1.843 1.842v28.474H2.842c-.488 0-.957.194-1.302.54l.707.706-.707-.707A1.842 1.842 0 0 "
+    },
+    {
+     "url": "https://www.adx.ae/-/jssmedia/adx/quick-links/virtual.svg?iar=0&hash=A6FA5C849721A82A4A2CF749ED5B1FBA",
+     "status": 200,
+     "snippet": "<svg width=\"28\" height=\"32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M1.656.375c.292 0 .542.104.75.313.209.208.313.468.313.78v27.626c0 .104.031.198.094.281a.457.457 0 0 0 .28.094h23.563c.313 0 .573.104.782.312.208.209.312.459.312.75 0 .313-.104.573-.313.782a1.06 1.06 0 0 1-.78.312H3.093a2.47 2.47 0 0 1-1.813-.75c-.479-.48-.718-1.073-.718-1.781V1.469c0-.313.104-.573.312-.782a1.06 1.0"
+    },
+    {
+     "url": "https://www.adx.ae/-/jssmedia/adx/quick-links/report.svg?iar=0&hash=817AB73AE3277A9492FA22C031DC42C5",
+     "status": 200,
+     "snippet": "<svg width=\"30\" height=\"36\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M27.208 36H2.792a2.642 2.642 0 0 1-1.848-.754 2.552 2.552 0 0 1-.767-1.817V1.714c0-.454.184-.89.51-1.211C1.016.18 1.459 0 1.92 0h19.274c.445 0 .873.166 1.196.466l6.885 6.37a1.722 1.722 0 0 1 .549 1.249v25.344c-.001.681-.277 1.335-.767 1.817a2.642 2.642 0 0 1-1.85.754ZM1.92 1.714V33.43a.85.85 0 0 0 .256.605.88.88 0 "
+    },
+    {
+     "url": "https://www.adx.ae/-/jssmedia/adx/quick-links/firms.svg?iar=0&hash=C88960BA3A7552E3DF4D237A0DBF309D",
+     "status": 200,
+     "snippet": "<svg width=\"28\" height=\"38\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4.25 37.2A3.954 3.954 0 0 1 .3 33.25V4.75A3.954 3.954 0 0 1 4.25.8h15.802V1a.675.675 0 0 1 .367.104L4.25 37.2Zm0 0 19.5-.002a3.955 3.955 0 0 0 3.95-3.95V8.473a.95.95 0 0 0-.296-.662l-6.678-6.73-.002-.002a.858.858 0 0 0-.206-.15L4.25 37.2Zm.828-9.122.142.142-.142-.142a.95.95 0 0 0 0 1.344l.142-.142-.142.142a.95.95 "
+    },
+    {
+     "url": "https://www.adx.ae/api/bpm/get-cookie?getAllCookie=true",
+     "status": 200,
+     "snippet": "{\"value\":\"{\\\"dtCookie\\\":\\\"v_4_srv_3_sn_A5514FBFCC103440F901CD113A9CC656_perc_100000_ol_0_mul_1_app-3Aada3130d51886d7f_1\\\",\\\"__cf_bm\\\":\\\"VGFPXGjI698Y3ElPIEihD9ToKR3n9sScTVhfKn8Xmn8-1793696604.6188529-1.0.1.1-SPRW2kaeU.s_IEUoPNzw_vzt.PtzOjV37RTJ2GIgIp58v1TNZBsylPfM7NMi2XacsrUg__kXK2tlNbGuypb._fWLvI1Q9Ubz6ItyU5iZ2bX5RkY5vEuKn9uEH_chgANO\\\",\\\"rxVisitor\\\":\\\"1793696604979GJM0000121Q0FGFDCHGFIM48NQ1MB5O6\\"
+    },
+    {
+     "url": "https://www.adx.ae/_next/data/x5xc11-voTIK-p3SaTpA7/en/derivatives.json?path=derivatives",
+     "status": 404,
+     "snippet": "{\"pageProps\":{\"site\":{\"name\":\"adx\",\"language\":\"en\",\"hostName\":\"*\"},\"locale\":\"en\",\"layoutData\":{\"sitecore\":{\"context\":{\"pageEditing\":false,\"sessionManagementData\":\"{\\r\\n  \\\"Image\\\": {\\r\\n    \\\"src\\\": \\\"/-/media/adx/session-popup/sessionpopup.svg\\\",\\r\\n    \\\"alt\\\": \\\"Session Management Image\\\"\\r\\n  },\\r\\n  \\\"Title\\\": \\\"Session has expired\\\",\\r\\n  \\\"Description\\\": \\\"Sorry, your session expired after "
+    },
+    {
+     "url": "https://www.adx.ae/_next/data/x5xc11-voTIK-p3SaTpA7/en.json",
+     "status": 200,
+     "snippet": "{\"pageProps\":{\"compressedProps\":\"eNrsvYlyG8mVKPorZUU8j/QCRWJf3G33BQmgmzMtiRapbvsNHROFqgRZFlAFVwGkaN+OuL9xf+9+yTtbLrUABCjJ3Z7bs7SIWrJOZp48+/KPF3m8US9+948XSbCCf18E0ccXjRfLILndBrd4QSXw+y7NN2/4gf/3xU9wPw2Dpbm7DB7T7WYSbAIcCAcM04wGDdNkoz5u8M81DDeN4k2c3L743SJY5qrxYq2yPE2CsyBX0TsVxZkKN3GafB8nH3IY/B832U3ieTcvXgfZB7V5HXxQ2c2L33lyHe9ssyVeuXlxqpLTdZYu4qXq9Junucru41Dlp6tHX/9986JhX0Sw+M3i5SC7VXLjv+awDB/gAbr7U0N"
+    },
+    {
+     "url": "https://www.adx.ae/_next/data/x5xc11-voTIK-p3SaTpA7/en/issuers/issuers-information/investor-relations-guide.json?path=en&path=issuers&path=issuers-information&path=investor-relations-guide",
+     "status": 200,
+     "snippet": "{\"pageProps\":{\"compressedProps\":\"eNrsvYlyG0e2IPor1Yp4bmkCRWJfbHd7QBKwea8lsUXK7n6XHR0FVIKsFlCFriqQov0cMb8xvzdf8s6WSy0AAUqy1XN9F4uoJSvz5MmzLz8/y6JcPfvy52dxsIJ/nwXh+2eNZ8sgvtkEN3hBxfD7NsnyV/zA/3j2C9xP5sHS3F0GD8kmPwvyAAfCAedJSoPOkzhX73P8cw3DTcIoj+KbZ18ugmWmGs/WKs2SODgJMhW+UWGUqnkeJfH3Ufwug8F/vk6vY8+7fvYySN+p/GXwTqXXz7705Dre2aRLvHL97FjFx+s0WURL1ek3jzOV3kVzlR2vHnz99/Wzhn0Rp8VvFi8H6Y2SG/+YARjewQN095eGns3"
+    },
+    {
+     "url": "https://www.adx.ae/_next/data/x5xc11-voTIK-p3SaTpA7/en/all-equities.json?path=all-equities",
+     "status": 404,
+     "snippet": "{\"pageProps\":{\"site\":{\"name\":\"adx\",\"language\":\"en\",\"hostName\":\"*\"},\"locale\":\"en\",\"layoutData\":{\"sitecore\":{\"context\":{\"pageEditing\":false,\"sessionManagementData\":\"{\\r\\n  \\\"Image\\\": {\\r\\n    \\\"src\\\": \\\"/-/media/adx/session-popup/sessionpopup.svg\\\",\\r\\n    \\\"alt\\\": \\\"Session Management Image\\\"\\r\\n  },\\r\\n  \\\"Title\\\": \\\"Session has expired\\\",\\r\\n  \\\"Description\\\": \\\"Sorry, your session expired after "
+    },
+    {
+     "url": "https://www.adx.ae/_next/data/x5xc11-voTIK-p3SaTpA7/en/investors/big-blocks.json?path=investors&path=big-blocks",
+     "status": 404,
+     "snippet": "{\"pageProps\":{\"site\":{\"name\":\"adx\",\"language\":\"en\",\"hostName\":\"*\"},\"locale\":\"en\",\"layoutData\":{\"sitecore\":{\"context\":{\"pageEditing\":false,\"sessionManagementData\":\"{\\r\\n  \\\"Image\\\": {\\r\\n    \\\"src\\\": \\\"/-/media/adx/session-popup/sessionpopup.svg\\\",\\r\\n    \\\"alt\\\": \\\"Session Management Image\\\"\\r\\n  },\\r\\n  \\\"Title\\\": \\\"Session has expired\\\",\\r\\n  \\\"Description\\\": \\\"Sorry, your session expired after "
+    },
+    {
+     "url": "https://www.adx.ae/api/bpm/set-cookie",
+     "status": 200,
+     "snippet": "{\"message\":\"Cookie set\"}"
+    },
+    {
+     "url": "https://www.adx.ae/api/bpm/set-cookie",
+     "status": 200,
+     "snippet": "{\"message\":\"Cookie set\"}"
+    },
+    {
+     "url": "https://www.adx.ae/api/bpm/set-cookie",
+     "status": 200,
+     "snippet": "{\"message\":\"Cookie set\"}"
+    },
+    {
+     "url": "https://www.adx.ae/api/bpm/set-cookie",
+     "status": 200,
+     "snippet": "{\"message\":\"Cookie set\"}"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/tradings/1.1/news?categoryName=home&categoryValue=announcement&recordCount=3",
+     "status": 200,
+     "snippet": "{\"response\":{\"news\":[{\"entity\":\"RAKPROP\",\"entityNameAr\":\"رأس الخيمة العقارية\",\"entityNameEn\":\"RAK Properties\",\"titleEn\":\"Suspend trading on RAK Properties-RAKPROP shares on 05 Nov 2026 at 01:00 PM\",\"titleAr\":\"إيقاف التداول على أسهم رأس الخيمة العقارية RAKPROP في 05 نوفمبر 2026 الساعة 01:00 مساءً\",\"urlEn\":\"https://apigateway.adx.ae/adx/cdn/1.0/content/download/5910433\",\"urlAr\":\"https://apigateway.a"
+    },
+    {
+     "url": "https://www.adx.ae/_next/static/media/pdf-download-icon.2678a682.svg",
+     "status": 200,
+     "snippet": "<svg width=\"24\" height=\"25\" viewBox=\"0 0 24 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M6.40039 0.915283H16C16.0727 0.915283 16.1429 0.943927 16.1943 0.995361L22.6699 7.47095C22.7213 7.52238 22.75 7.59255 22.75 7.66528V22.0647C22.75 23.1417 21.8768 24.0149 20.7998 24.0149H6.40039C5.32344 24.0149 4.4502 23.1417 4.4502 22.0647V2.86548C4.4502 1.78852 5.32344 0.915283 6.40039 0.91528"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch/1.1/indexChartDay/FADGMI",
+     "status": 200,
+     "snippet": "{\"response\":{\"indexChart\":[{\"indexCode\":\"FADGMI\",\"positionDate\":\"2026-11-03T09:03:15.0000002Z\",\"indexHighValue\":460.01,\"indexLowValue\":460.01,\"openValue\":460.01,\"closeValue\":460.01,\"netChange\":0,\"changePercentage\":0},{\"indexCode\":\"FADGMI\",\"positionDate\":\"2026-11-03T08:59:45.0000002Z\",\"indexHighValue\":459.93,\"indexLowValue\":459.93,\"openValue\":459.93,\"closeValue\":459.93,\"netChange\":0,\"changePercenta"
+    },
+    {
+     "url": "https://www.adx.ae/_next/data/x5xc11-voTIK-p3SaTpA7/en/privacy-policy.json?path=privacy-policy",
+     "status": 404,
+     "snippet": "{\"pageProps\":{\"site\":{\"name\":\"adx\",\"language\":\"en\",\"hostName\":\"*\"},\"locale\":\"en\",\"layoutData\":{\"sitecore\":{\"context\":{\"pageEditing\":false,\"sessionManagementData\":\"{\\r\\n  \\\"Image\\\": {\\r\\n    \\\"src\\\": \\\"/-/media/adx/session-popup/sessionpopup.svg\\\",\\r\\n    \\\"alt\\\": \\\"Session Management Image\\\"\\r\\n  },\\r\\n  \\\"Title\\\": \\\"Session has expired\\\",\\r\\n  \\\"Description\\\": \\\"Sorry, your session expired after "
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch/1.1/FTSEIndex",
+     "status": 200,
+     "snippet": "{\"response\":{\"FTSEIndex\":[{\"indexCode\":\"FADBMI\",\"indexName\":\"FTSE ADX BASIC MATERIALS INDEX\",\"indexNameAr\":\"مؤشر فوتسي سوق أبوظبي للمواد اﻷ ساسية\",\"change\":-51.78,\"close\":3797.25,\"open\":4556.69,\"preClose\":3849.03,\"changePercent\":-1.345,\"low\":3659.16,\"high\":4988.2},{\"indexCode\":\"FADCDI\",\"indexName\":\"FTSE ADX CONSUMER DISCRETIONARY INDEX\",\"indexNameAr\":\"مؤشر فوتسي سوق أبوظبي التقديري للمستهلك\",\"chan"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/tradings/1.1/news?categoryName=cd&categoryValue=&recordCount=3",
+     "status": 200,
+     "snippet": "{\"response\":{\"news\":[{\"entity\":\"AGILITY\",\"entityNameAr\":\"أجيليتي جلوبال بي ال سي\",\"entityNameEn\":\"Agility Global PLC\",\"titleEn\":\"Agility Global PLC Announcement of Board Meeting to be held on 09/11/2026 at 15:00 \",\"titleAr\":\"أجيليتي جلوبال بي ال سي اعلان اجتماع مجلس الإدارة بتاريخ 09/11/2026 الساعة 15:00 \",\"urlEn\":\"https://apigateway.adx.ae/adx/cdn/1.0/content/download/5910398\",\"urlAr\":\"https://ap"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch/1.1/trading-status",
+     "status": 200,
+     "snippet": "{\"response\":{\"sessionName\":\"Trading\",\"systemTimestamp\":\"2026-11-03 13:03:15\"},\"resultCode\":\"S\",\"resultMessage\":\"Success\",\"errorMessages\":null}"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch/1.1/securityBoards/mainMarket",
+     "status": 200,
+     "snippet": "{\"response\":{\"results\":[{\"companySymbol\":\"2POINTZERO\",\"companyISIN\":\"AEM001001019\",\"companyID\":\"Two Point Zero Group PJSC\",\"bidVolume\":876593,\"bid\":1.91,\"ask\":1.92,\"askVolume\":265425,\"last\":1.91,\"previousClose\":1.91,\"changePrice\":0.0,\"change\":0.0,\"value\":8356577.829999998,\"volume\":4347699,\"trades\":175,\"open\":1.92,\"price\":1.91,\"high\":1.96,\"low\":1.9,\"tradingState\":\"Normal Trading (Active)\",\"marketCa"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch/1.1/topFive/mainMarket/value",
+     "status": 200,
+     "snippet": "{\"response\":{\"value\":[{\"company\":\"IHC\",\"displaySecCode\":\"IHC\",\"value\":6.49125716000001E7,\"price\":340.0,\"change\":0.0,\"isShowOnMarketWatch\":true},{\"company\":\"ADNOCGAS\",\"displaySecCode\":\"ADNOCGAS\",\"value\":5.993052650999997E7,\"price\":3.16,\"change\":0.6369426751592362,\"isShowOnMarketWatch\":true},{\"company\":\"ALDAR\",\"displaySecCode\":\"ALDAR\",\"value\":4.624226169000007E7,\"price\":7.72,\"change\":0.2597402597402"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch/1.1/indexChartDay/FADGI",
+     "status": 200,
+     "snippet": "{\"response\":{\"indexChart\":[{\"indexCode\":\"FADGI\",\"positionDate\":\"2026-11-03T09:03:15.0000002Z\",\"indexHighValue\":9505.1,\"indexLowValue\":9504.07,\"openValue\":9504.86,\"closeValue\":9504.07,\"netChange\":-0.7900000000008731,\"changePercentage\":-0.008311537466105478},{\"indexCode\":\"FADGI\",\"positionDate\":\"2026-11-03T09:03:00.0000002Z\",\"indexHighValue\":9506.0,\"indexLowValue\":9504.13,\"openValue\":9506.0,\"closeVal"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch/1.1/scrollingTicker",
+     "status": 200,
+     "snippet": "{\"response\":{\"results\":[{\"companySymbol\":\"2POINTZERO\",\"lastTradedValue\":1.91,\"changeValue\":0.0,\"changePercentage\":0.0,\"displaySecCode\":\"2POINTZERO\",\"isShowOnMarketWatch\":true},{\"companySymbol\":\"ABNIC\",\"lastTradedValue\":2.4,\"changeValue\":0.0,\"changePercentage\":0.0,\"displaySecCode\":\"ABNIC\",\"isShowOnMarketWatch\":true},{\"companySymbol\":\"ADAVIATION\",\"lastTradedValue\":5.67,\"changeValue\":-0.0400000000000"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch/1.1/indexChartDay/FADX15",
+     "status": 200,
+     "snippet": "{\"response\":{\"indexChart\":[{\"indexCode\":\"FADX15\",\"positionDate\":\"2026-11-03T09:03:00.0000002Z\",\"indexHighValue\":10089.86,\"indexLowValue\":10087.07,\"openValue\":10089.86,\"closeValue\":10087.07,\"netChange\":-2.790000000000873,\"changePercentage\":-0.027651523410640713},{\"indexCode\":\"FADX15\",\"positionDate\":\"2026-11-03T09:02:30.0000002Z\",\"indexHighValue\":10089.93,\"indexLowValue\":10088.26,\"openValue\":10089.9"
+    },
+    {
+     "url": "https://www.adx.ae/_next/static/media/AI-Highlights-icon.d699aabe.svg",
+     "status": 200,
+     "snippet": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_13192_1183)\">\n<path d=\"M12.6496 0.5C12.9595 0.5 13.2281 0.714788 13.2962 1.01714L13.7723 3.13063C14.1199 4.67362 15.3248 5.87858 16.8678 6.22616L18.9813 6.70224C19.2837 6.77035 19.4985 7.03891 19.4985 7.34884C19.4985 7.65877 19.2837 7.92732 18.9813 7.99543L16.8678 8.47152C15.324"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch/1.1/trading-status",
+     "status": 200,
+     "snippet": "{\"response\":{\"sessionName\":\"Trading\",\"systemTimestamp\":\"2026-11-03 13:03:24\"},\"resultCode\":\"S\",\"resultMessage\":\"Success\",\"errorMessages\":null}"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch/1.1/topFive/mainMarket/value",
+     "status": 200,
+     "snippet": "{\"response\":{\"value\":[{\"company\":\"IHC\",\"displaySecCode\":\"IHC\",\"value\":6.49125716000001E7,\"price\":340.0,\"change\":0.0,\"isShowOnMarketWatch\":true},{\"company\":\"ADNOCGAS\",\"displaySecCode\":\"ADNOCGAS\",\"value\":5.993052650999997E7,\"price\":3.16,\"change\":0.6369426751592362,\"isShowOnMarketWatch\":true},{\"company\":\"ALDAR\",\"displaySecCode\":\"ALDAR\",\"value\":4.624226169000007E7,\"price\":7.72,\"change\":0.2597402597402"
+    },
+    {
+     "url": "https://prod15-live-chat.sprinklr.com/api/livechat/handshake/v2/appHandshake",
+     "status": 200,
+     "snippet": "{\"chatSessionToken\":\"eyJhbGciOiJSUzI1NiJ9.eyJ2aXNpdFNlc3Npb25JZCI6IjZhZTlhMzVmMWZiM2Q3ODU4ZDYxNTc5NiIsInN1YiI6IkFjY2VzcyBUb2tlbiBHZW5lcmF0ZWQgQnkgU3ByaW5rbHIiLCJjaGF0TG9jYWxlIjoiZW4iLCJjaGF0VXNlckhhc0NvbnZlcnNhdGlvblN0YXJ0ZWQiOmZhbHNlLCJpc3MiOiJTUFJJTktMUiIsInZpc2l0U2Vzc2lvbklkRXhwaXJlQXQiOjE3OTM3Mzk4MDc2MzIsInR5cCI6IkpXVCIsImlzRGVmbGVjdGlvblRva2VuIjpmYWxzZSwidXNlclNlc3Npb25Mb2dpbk1ldGhvZCI6IntcIn"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch/1.1/indexChartDay/FADGI",
+     "status": 200,
+     "snippet": "{\"response\":{\"indexChart\":[{\"indexCode\":\"FADGI\",\"positionDate\":\"2026-11-03T09:03:15.0000002Z\",\"indexHighValue\":9505.1,\"indexLowValue\":9504.07,\"openValue\":9504.86,\"closeValue\":9504.07,\"netChange\":-0.7900000000008731,\"changePercentage\":-0.008311537466105478},{\"indexCode\":\"FADGI\",\"positionDate\":\"2026-11-03T09:03:00.0000002Z\",\"indexHighValue\":9506.0,\"indexLowValue\":9504.13,\"openValue\":9506.0,\"closeVal"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch/1.1/trading-status",
+     "status": 200,
+     "snippet": "{\"response\":{\"sessionName\":\"Trading\",\"systemTimestamp\":\"2026-11-03 13:03:24\"},\"resultCode\":\"S\",\"resultMessage\":\"Success\",\"errorMessages\":null}"
+    },
+    {
+     "url": "https://prod15-live-chat.sprinklr.com/api/livechat/conversation/fetch?sortKey=lastInteractionTime",
+     "status": 200,
+     "snippet": "{\"results\":[],\"hasMore\":false,\"totalCount\":0,\"before\":1793696608193,\"after\":1793696608192}"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/lookups/1.1/data/listed-companies",
+     "status": 200,
+     "snippet": "{\"response\":{\"companies\":{\"company\":[{\"code\":\"2POINTZERO\",\"nameEn\":\"Two Point Zero Group PJSC\",\"nameAr\":\"مجموعة تو بوينت زيرو ش م ع\",\"board\":\"EQTY\",\"sourceSymbol\":\"2POINTZERO\"},{\"code\":\"ABNIC\",\"nameEn\":\"Al Buhaira National Insurance Company\",\"nameAr\":\"شركة البحيرة الوطنية للتأمين\",\"board\":\"EQTY\",\"sourceSymbol\":\"ABNIC\"},{\"code\":\"ADAVIATION\",\"nameEn\":\"Abu Dhabi Aviation Co\",\"nameAr\":\"شركة طيران أبوظ"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch/1.1/FTSEIndex",
+     "status": 200,
+     "snippet": "{\"response\":{\"FTSEIndex\":[{\"indexCode\":\"FADBMI\",\"indexName\":\"FTSE ADX BASIC MATERIALS INDEX\",\"indexNameAr\":\"مؤشر فوتسي سوق أبوظبي للمواد اﻷ ساسية\",\"change\":-51.78,\"close\":3797.25,\"open\":4556.69,\"preClose\":3849.03,\"changePercent\":-1.345,\"low\":3659.16,\"high\":4988.2},{\"indexCode\":\"FADCDI\",\"indexName\":\"FTSE ADX CONSUMER DISCRETIONARY INDEX\",\"indexNameAr\":\"مؤشر فوتسي سوق أبوظبي التقديري للمستهلك\",\"chan"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch/1.1/securityBoard/marketwatch",
+     "status": 200,
+     "snippet": "{\"response\":{\"results\":[{\"companySymbol\":\"2POINTZERO\",\"companyISIN\":\"AEM001001019\",\"companyID\":\"Two Point Zero Group PJSC\",\"bidVolume\":876593,\"bid\":1.91,\"ask\":1.92,\"askVolume\":265425,\"last\":1.91,\"previousClose\":1.91,\"changePrice\":0.0,\"change\":0.0,\"value\":8356577.829999998,\"volume\":4347699,\"trades\":175,\"open\":1.92,\"price\":1.91,\"high\":1.96,\"low\":1.9,\"tradingState\":\"Normal Trading (Active)\",\"marketCa"
+    },
+    {
+     "url": "https://www.adx.ae/_next/data/x5xc11-voTIK-p3SaTpA7/en/about-adx/knowledge-center/adx-blogs/understanding-derivatives-what-they-are-and-how-they-work.json?path=about-adx&path=knowledge-center&path=adx",
+     "status": 200,
+     "snippet": "{\"pageProps\":{\"compressedProps\":\"eNrsvYly40a2IPoraE08t/2CkAjudLvt4erSvbWoSyq7e646OkAgKcECATYASkX7OWJ+Y35vvuSdJTORWLipqtrVM76LS8SSyDx59i1/OUuDTJx9/ctZ5K7g3zPXf3/WOAvd6G7j3uEFEcHv+zjNXvMD/+/Zr3A/9txQ3w3dbbzJpm7m4kA4oBcnNKgXR5l4n+Gfaxhu5gdZEN2dfb10w1Q0ztYiSePIHbup8N8KP0iElwVx9DKIHlIY/Jfb5DayrNuzV27yILJX7oNIbs++tuR1vLNJQrxye3Yhoot1Ei+DULR7zYtUJI+BJ9KL1dZWf9+eNfIXcVr8ZvGym9wJeeMfCwDDAzxAd39tqNnM3nv3AB9"
+    },
+    {
+     "url": "https://prod15-live-chat.sprinklr.com/api/livechat/event/fetch-notifications?cursor=A_6ae9a35f0000000000000000",
+     "status": 200,
+     "snippet": "{\"results\":[],\"hasMore\":false,\"totalCount\":0,\"beforeCursor\":\"B_6ae9a35f0000000000000001\",\"afterCursor\":\"A_6ae9a35f0000000000000000\",\"details\":{\"SERVER_TIMESTAMP\":1793696608868}}"
+    }
+   ],
+   "error": null
+  },
+  {
+   "url": "https://www.adx.ae/main-market/",
+   "status": 200,
+   "title": "Main Market",
+   "text": "Data delayed by 15 minutes. Please login to view real-time data.\n\nAll EquitiesMain MarketGrowth MarketETFDerivatives\nAccessibility\nSkip to Content\nعربي\nLogin\n2POINTZERO1.9100.000(0.000%)ABNIC2.4000.000(0.000%)ADAVIATION5.670-0.040(-0.701%)ADCB16.2000.180(1.124%)ADIB20.5200.420(2.090%)ADID2.0100.050(2.551%)ADNH0.4580.010(2.232%)ADNHC0.6070.002(0.331%)ADNIC6.850-0.050(-0.725%)ADNOCDIST3.780-0.010(-0.264%)ADNOCDRILL5.860-0.080(-1.347%)ADNOCGAS3.1700.030(0.955%)ADNOCLS6.9300.070(1.020%)ADPORTS6.130-0.040(-0.648%)ADSB8.080-0.020(-0.247%)AGILITY1.470-0.010(-0.676%)AGTHIA3.180-0.030(-0.935%)ALDAR7.7300.030(0.390%)ALEFEDT0.9230.000(0.000%)ALPHADATA1.310-0.010(-0.758%)ALPHADHABI6.860-0.100(-1.437%)AMR2.4900.000(0.000%)APEX3.0400.010(0.330%)ARAM2.940-0.110(-3.607%)BOROUGE2.280-0.010(-0.437%)BOS1.540-0.040(-2.532%)BURJEEL1.080-0.010(-0.917%)DANA0.807-0.002(-0.247%)E70.900-0.014(-1.532%)EMOBILITY3.300-0.120(-3.509%)EMSTEEL1.2000.000(0.000%)ESHRAQ0.563-0.002(-0.354%)ETISALAT21.3200.120(0.566%)FAB18.7800.100(0.535%)FCI0.384-0.016(-4.000%)FERTIGLB2.210-0.020(-0.897%)FH1.9000.000(0.000%)GCEM1.3900.000(0.000%)GFH1.4900.000(0.000%)HAYAH1.210-0.060(-4.724%)ICAP1.460-0.010(-0.680%)IH1.250-0.010(-0.794%)IHC340.0000.000(0.000%)INB1.9000.020(1.064%)JULPHAR0.9490.019(2.043%)KICO4.4800.000(0.000%)LULU0.9260.002(0.216%)MAIR0.993-0.027(-2.647%)NCTH1.410-0.010(-0.704%)NMDC24.140-0.340(-1.389%)NMDCENR2.400-0.020(-0.826%)ORAS50.200-1.050(-2.049%)PHX0.4420.006(1.376%)PRESIGHT3.440-0.080(-2.273%)PUREHEALTH2",
+   "xhr": [
+    {
+     "url": "https://www.adx.ae/_next/static/media/darkuparrow.e6e4b6d5.svg",
+     "status": 200,
+     "snippet": "<svg width=\"165\" height=\"33\" viewBox=\"0 0 165 33\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g id=\"Group 57299\">\n<path id=\"Union\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M163 14C164.105 14 165 14.8954 165 16C165 17.1046 164.105 18 163 18L118.211 18C107.861 18 99.1407 28.1105 89.4996 31.8753C87.6401 32.6015 85.6166 33 83.5 33C81.3834 33 79.3599 32.6015 77.5004 31.8753C67.8593 28.1105 59.13"
+    },
+    {
+     "url": "https://www.adx.ae/_next/static/media/Earth.5712b293.svg",
+     "status": 200,
+     "snippet": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M10.0013 18.3307C5.39893 18.3307 1.66797 14.5997 1.66797 9.9974C1.66797 7.67028 2.62184 5.56595 4.15994 4.05408M10.0013 18.3307C9.1988 17.7361 9.32689 17.0436 9.72947 16.3513C10.3485 15.2869 10.3485 15.2869 10.3485 13.8677C10.3485 12.4486 11.1918 11.7831 14.168 12.3783C15.5052 12.6458 16.4797 1"
+    },
+    {
+     "url": "https://www.adx.ae/_next/static/media/Login.307d52ac.svg",
+     "status": 200,
+     "snippet": "<svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M2.5 6.36053C3.85062 3.58044 6.70149 1.66406 9.99995 1.66406C14.6024 1.66406 18.3333 5.39502 18.3333 9.9974C18.3333 14.5997 14.6024 18.3307 9.99995 18.3307C6.70149 18.3307 3.85062 16.4144 2.5 13.6342\" stroke=\"white\" stroke-width=\"1.25\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<path d=\"M"
+    },
+    {
+     "url": "https://www.adx.ae/-/jssmedia/adx/topnavigation/adx-logo-white--107x48.svg?h=48&iar=0&w=107&hash=B40319EA3EFADC2E289FD4FC0E4C8330",
+     "status": 200,
+     "snippet": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" viewBox=\"0 0 107 48\">\n  <defs>\n    <style>\n      .cls-1 {\n        fill: #5eb3e4;\n      }\n\n      .cls-2 {\n        fill: #fff;\n      }\n    </style>\n  </defs>\n  <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->\n  <g>\n    <g id=\"Layer_1\">\n      <g>\n        <polyg"
+    },
+    {
+     "url": "https://www.adx.ae/api/bpm/get-cookie?getAllCookie=true",
+     "status": 200,
+     "snippet": "{\"value\":\"{\\\"dtCookie\\\":\\\"v_4_srv_1_sn_856FA45ABADB7FEC9EBFA556F8430176_perc_100000_ol_0_mul_1_app-3Aada3130d51886d7f_1\\\",\\\"__cf_bm\\\":\\\"Xjlg_y3ymeoFwjY3TD1pr576.IQB7HzOTrCsuYMT5lU-1793696614.0005279-1.0.1.1-LHfz7oKcS5tLdRvKIZRea9xPFs1cMnSsqMld4RPmYMtLct5gbP3dO0cNI2CASw9c1IVSLkO8jabkjhGG_oggRgx_E3gktLArZiKvHrL1eJbBKwlT6smm6aD7BrZbEhHM\\\",\\\"rxVisitor\\\":\\\"17936966146150675FSVT72T0NP8JPN4LFBIM1K6V4L9J\\"
+    },
+    {
+     "url": "https://www.adx.ae/_next/data/x5xc11-voTIK-p3SaTpA7/en/etf.json?path=etf",
+     "status": 404,
+     "snippet": "{\"pageProps\":{\"site\":{\"name\":\"adx\",\"language\":\"en\",\"hostName\":\"*\"},\"locale\":\"en\",\"layoutData\":{\"sitecore\":{\"context\":{\"pageEditing\":false,\"sessionManagementData\":\"{\\r\\n  \\\"Image\\\": {\\r\\n    \\\"src\\\": \\\"/-/media/adx/session-popup/sessionpopup.svg\\\",\\r\\n    \\\"alt\\\": \\\"Session Management Image\\\"\\r\\n  },\\r\\n  \\\"Title\\\": \\\"Session has expired\\\",\\r\\n  \\\"Description\\\": \\\"Sorry, your session expired after "
+    },
+    {
+     "url": "https://www.adx.ae/_next/data/x5xc11-voTIK-p3SaTpA7/en.json",
+     "status": 404,
+     "snippet": "{\"pageProps\":{\"site\":{\"name\":\"adx\",\"language\":\"en\",\"hostName\":\"*\"},\"locale\":\"en\",\"layoutData\":{\"sitecore\":{\"context\":{\"pageEditing\":false,\"sessionManagementData\":\"{\\r\\n  \\\"Image\\\": {\\r\\n    \\\"src\\\": \\\"/-/media/adx/session-popup/sessionpopup.svg\\\",\\r\\n    \\\"alt\\\": \\\"Session Management Image\\\"\\r\\n  },\\r\\n  \\\"Title\\\": \\\"Session has expired\\\",\\r\\n  \\\"Description\\\": \\\"Sorry, your session expired after "
+    },
+    {
+     "url": "https://www.adx.ae/_next/data/x5xc11-voTIK-p3SaTpA7/en/derivatives.json?path=derivatives",
+     "status": 404,
+     "snippet": "{\"pageProps\":{\"site\":{\"name\":\"adx\",\"language\":\"en\",\"hostName\":\"*\"},\"locale\":\"en\",\"layoutData\":{\"sitecore\":{\"context\":{\"pageEditing\":false,\"sessionManagementData\":\"{\\r\\n  \\\"Image\\\": {\\r\\n    \\\"src\\\": \\\"/-/media/adx/session-popup/sessionpopup.svg\\\",\\r\\n    \\\"alt\\\": \\\"Session Management Image\\\"\\r\\n  },\\r\\n  \\\"Title\\\": \\\"Session has expired\\\",\\r\\n  \\\"Description\\\": \\\"Sorry, your session expired after "
+    },
+    {
+     "url": "https://www.adx.ae/_next/data/x5xc11-voTIK-p3SaTpA7/en/main-market.json?path=main-market",
+     "status": 200,
+     "snippet": "{\"pageProps\":{\"compressedProps\":\"eNrsvQtz3EaSLvpXOhSxG7s3XFa9H+fGxAk8JY4pUkNS9njPbJwoAAWyR81uTj8ka+f6v98soB9AP9CQujnj9XIcY7MLiUR9WVlZmfXI+vur2XDuXv2vv78a20f47ytb/PLqu1cjO75f2Htf4Mbw+2Eym1/VBP/Pq1/h+SS3o/XTkf0yWcxjO7eekWeYT6YV03wynrtf5v7PJ2CXFMP5cHz/6n+VdjRz3716ctPZZGxDO3PFjSuGU5fPh5Px5XD8cQbM//6X6V/Gg8FfXr2z049u/s5+dNO/vPpfg2W5f7KYjnzJX169duPXT9NJORw5JvHrmZt+GuZu9vrxC1r9/ZdX321e9NWq32wX2+m9Wz74vxm"
+    },
+    {
+     "url": "https://www.adx.ae/api/bpm/set-cookie",
+     "status": 200,
+     "snippet": "{\"message\":\"Cookie set\"}"
+    },
+    {
+     "url": "https://www.adx.ae/api/bpm/set-cookie",
+     "status": 200,
+     "snippet": "{\"message\":\"Cookie set\"}"
+    },
+    {
+     "url": "https://www.adx.ae/_next/data/x5xc11-voTIK-p3SaTpA7/en/growth-market.json?path=growth-market",
+     "status": 200,
+     "snippet": "{\"pageProps\":{\"compressedProps\":\"eNrsvQlz3MiRNvxXOhSxG7tfTFl1H/uFYwOnRA9JySQ149n1xhsFoEC21eym+5BG63f++5sF9AH0gYbUTXt2lp7wDLuQSNSTlZWVWUfW317NhnP36t/+9mpsH+G/r2zx86vvXo3s+H5h732BG8Pvh8lsfl0T/H+vfoHnk9yO1k9H9stkMY/t3HpGnmE+mVZM88l47n6e+z+fgF1SDOfD8f2rfyvtaOa+e/XkprPJ2IZ25oobVwynLp8PJ+PL4fjjDJj/7c/TP48Hgz+/urLTj25+ZT+66Z9f/dtgWe6fLKYjX/LnV6/d+PXTdFIOR45J/Hrmpp+GuZu9fvyCVn//+dV3mxd9teo328V2eu+WD/5PBmL"
+    },
+    {
+     "url": "https://www.adx.ae/api/bpm/set-cookie",
+     "status": 200,
+     "snippet": "{\"message\":\"Cookie set\"}"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/lookups/1.1/data/symbol-sector",
+     "status": 200,
+     "snippet": "{\"response\":{\"companies\":{\"company\":[{\"symbol\":\"P018\",\"sectorNameEn\":\"Other\",\"sectorNameAr\":\"آخر\",\"sectorSourceId\":0},{\"symbol\":\"XSADGB1047\",\"sectorNameEn\":\"Other\",\"sectorNameAr\":\"آخر\",\"sectorSourceId\":0},{\"symbol\":\"RAKWCT\",\"sectorNameEn\":\"Industrial\",\"sectorNameAr\":\"الصناعات\",\"sectorSourceId\":6},{\"symbol\":\"ADNIC\",\"sectorNameEn\":\"Financials\",\"sectorNameAr\":\"المالية\",\"sectorSourceId\":1},{\"symbol\":\""
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch-delayed/1.1/scrollingTicker?market_type=mainMarket",
+     "status": 200,
+     "snippet": "{\"response\":{\"results\":[{\"companySymbol\":\"2POINTZERO\",\"lastTradedValue\":1.91,\"changeValue\":0.0,\"changePercentage\":0.0,\"displaySecCode\":\"2POINTZERO\",\"isShowOnMarketWatch\":true},{\"companySymbol\":\"ABNIC\",\"lastTradedValue\":2.4,\"changeValue\":0.0,\"changePercentage\":0.0,\"displaySecCode\":\"ABNIC\",\"isShowOnMarketWatch\":true},{\"companySymbol\":\"ADAVIATION\",\"lastTradedValue\":5.67,\"changeValue\":-0.0400000000000"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/lookups/1.1/data/sector",
+     "status": 200,
+     "snippet": "{\"response\":{\"sectors\":{\"sector\":[{\"sourceId\":12,\"nameEn\":\"Basic Materials\",\"nameAr\":\"المواد الأساسية\"},{\"sourceId\":13,\"nameEn\":\"Consumer Discretionary\",\"nameAr\":\"السلع الاستهلاكية التقديرية\"},{\"sourceId\":3,\"nameEn\":\"Consumer Staples\",\"nameAr\":\"السلع الاستهـلاكية\"},{\"sourceId\":8,\"nameEn\":\"Energy\",\"nameAr\":\"الطاقة\"},{\"sourceId\":1,\"nameEn\":\"Financials\",\"nameAr\":\"المالية\"},{\"sourceId\":11,\"nameEn\":\"He"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/tradings/1.1/news?categoryName=home&categoryValue=announcement&recordCount=5&marketType=mainMarket",
+     "status": 200,
+     "snippet": "{\"response\":{\"news\":[{\"entity\":\"RAKPROP\",\"entityNameAr\":\"رأس الخيمة العقارية\",\"entityNameEn\":\"RAK Properties\",\"titleEn\":\"Suspend trading on RAK Properties-RAKPROP shares on 05 Nov 2026 at 01:00 PM\",\"titleAr\":\"إيقاف التداول على أسهم رأس الخيمة العقارية RAKPROP في 05 نوفمبر 2026 الساعة 01:00 مساءً\",\"urlEn\":\"https://apigateway.adx.ae/adx/cdn/1.0/content/download/5910433\",\"urlAr\":\"https://apigateway.a"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch-delayed/1.1/securityBoards/mainMarket",
+     "status": 200,
+     "snippet": "{\"response\":{\"results\":[{\"companySymbol\":\"2POINTZERO\",\"companyISIN\":\"AEM001001019\",\"companyID\":\"Two Point Zero Group PJSC\",\"bidVolume\":747655,\"bid\":1.91,\"ask\":1.93,\"askVolume\":659908,\"last\":1.91,\"previousClose\":1.91,\"changePrice\":0.0,\"change\":0.0,\"value\":8355695.409999998,\"volume\":4347237,\"trades\":174,\"open\":1.92,\"price\":1.91,\"high\":1.96,\"low\":1.9,\"tradingState\":\"Normal Trading (Active)\",\"marketCa"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch/1.1/trading-status",
+     "status": 200,
+     "snippet": "{\"response\":{\"sessionName\":\"Trading\",\"systemTimestamp\":\"2026-11-03 13:03:29\"},\"resultCode\":\"S\",\"resultMessage\":\"Success\",\"errorMessages\":null}"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch-delayed/1.1/topFive/mainMarket/value",
+     "status": 200,
+     "snippet": "{\"response\":{\"value\":[{\"company\":\"IHC\",\"displaySecCode\":\"IHC\",\"value\":6.48183916000001E7,\"price\":340.0,\"change\":0.0,\"isShowOnMarketWatch\":true},{\"company\":\"ADNOCGAS\",\"displaySecCode\":\"ADNOCGAS\",\"value\":5.855752667999997E7,\"price\":3.17,\"change\":0.9554140127388472,\"isShowOnMarketWatch\":true},{\"company\":\"ADNOCDRILL\",\"displaySecCode\":\"ADNOCDRILL\",\"value\":4.483292438E7,\"price\":5.86,\"change\":-1.34680134"
+    },
+    {
+     "url": "https://www.adx.ae/_next/data/x5xc11-voTIK-p3SaTpA7/en/privacy-policy.json?path=privacy-policy",
+     "status": 200,
+     "snippet": "{\"pageProps\":{\"compressedProps\":\"eNrsvYly21a2KPoraFe9tP2KkDgPnXTnkiKZ6JzYVlty0v2OUl0gAEpokwAbACUruam6v3F/737JW9MeMJAiZTtx35MzxCKGjb3XXnvNw8/PsigPn/3p52ext4Z/n3nB+2eNZysvvtl6N3ghjOH3bZLlr/iB//fZL3A/8b2VvrvyHpJtPvVyDwfCAf0kpUH9JM7D9zn+uYHhZkGUR/HNsz8tvVUWNp5twjRLYm/iZWHwJgyiNPTzKIm/i+J3GQz+83V6HTvO9bOXXvouzF9678L0+tmfHLmOd7bpCq9cPzsN49NNmiyjVdjpN0+zML2L/DA7XT+46u/rZw3zIk6L3yxe9tKbUG78YwFgeAcP0N1fGmo"
+    },
+    {
+     "url": "https://www.adx.ae/_next/data/x5xc11-voTIK-p3SaTpA7/en/all-equities.json?path=all-equities",
+     "status": 200,
+     "snippet": "{\"pageProps\":{\"compressedProps\":\"eNrsvQlz3MiRNvxXOhSxG7tfTFl1H/uFYwOnRA9FyiQ149n1xhsFoEC21eym+5BG63f++5sF9AH0gYbUTXt2lp7wDLuQSNSTlZWVWUfW317NhnP36t/+9mpsH+G/r2zx86vvXo3s+H5h732BG8Pvh8lsflUT/H+vfoHnk9yO1k9H9stkMY/t3HpGnmE+mVZM88l47n6e+z+fgF1SDOfD8f2rfyvtaOa+e/XkprPJ2IZ25oobVwynLp8PJ+PL4fjjDJj/7c/TP48Hgz+/emenH938nf3opn9+9W+DZbl/spiOfMmfX71249dP00k5HDkm8euZm34a5m72+vELWv3951ffbV701arfbBfb6b1bPvg/GYj"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/lookups/1.1/data/listed-companies",
+     "status": 200,
+     "snippet": "{\"response\":{\"companies\":{\"company\":[{\"code\":\"2POINTZERO\",\"nameEn\":\"Two Point Zero Group PJSC\",\"nameAr\":\"مجموعة تو بوينت زيرو ش م ع\",\"board\":\"EQTY\",\"sourceSymbol\":\"2POINTZERO\"},{\"code\":\"ABNIC\",\"nameEn\":\"Al Buhaira National Insurance Company\",\"nameAr\":\"شركة البحيرة الوطنية للتأمين\",\"board\":\"EQTY\",\"sourceSymbol\":\"ABNIC\"},{\"code\":\"ADAVIATION\",\"nameEn\":\"Abu Dhabi Aviation Co\",\"nameAr\":\"شركة طيران أبوظ"
+    },
+    {
+     "url": "https://www.adx.ae/_next/static/media/NoDataFoundIcon.6f2b0518.svg",
+     "status": 200,
+     "snippet": "<svg width=\"44\" height=\"47\" viewBox=\"0 0 44 47\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M5.59894 0.549829H4.38557C4.23373 0.549829 4.11065 0.426716 4.11065 0.274877C4.11065 0.123076 4.23373 0 4.38557 0H5.59894C5.75078 0 5.87389 0.123076 5.87389 0.274877C5.87389 0.426716 5.75078 0.549829 5.59894 0.549829ZM8.32906 0.549829H7.11569C6.96385 0.54"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch-delayed/1.1/securityBoards/mainMarket",
+     "status": 200,
+     "snippet": "{\"response\":{\"results\":[{\"companySymbol\":\"2POINTZERO\",\"companyISIN\":\"AEM001001019\",\"companyID\":\"Two Point Zero Group PJSC\",\"bidVolume\":747655,\"bid\":1.91,\"ask\":1.93,\"askVolume\":659908,\"last\":1.91,\"previousClose\":1.91,\"changePrice\":0.0,\"change\":0.0,\"value\":8355695.409999998,\"volume\":4347237,\"trades\":174,\"open\":1.92,\"price\":1.91,\"high\":1.96,\"low\":1.9,\"tradingState\":\"Normal Trading (Active)\",\"marketCa"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch-delayed/1.1/topFive/mainMarket/value",
+     "status": 200,
+     "snippet": "{\"response\":{\"value\":[{\"company\":\"IHC\",\"displaySecCode\":\"IHC\",\"value\":6.48183916000001E7,\"price\":340.0,\"change\":0.0,\"isShowOnMarketWatch\":true},{\"company\":\"ADNOCGAS\",\"displaySecCode\":\"ADNOCGAS\",\"value\":5.855752667999997E7,\"price\":3.17,\"change\":0.9554140127388472,\"isShowOnMarketWatch\":true},{\"company\":\"ADNOCDRILL\",\"displaySecCode\":\"ADNOCDRILL\",\"value\":4.483292438E7,\"price\":5.86,\"change\":-1.34680134"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch/1.1/indexChartDay/FADGI",
+     "status": 200,
+     "snippet": "{\"response\":{\"indexChart\":[{\"indexCode\":\"FADGI\",\"positionDate\":\"2026-11-03T09:03:30.0000002Z\",\"indexHighValue\":9505.1,\"indexLowValue\":9503.94,\"openValue\":9504.86,\"closeValue\":9503.94,\"netChange\":-0.9200000000000728,\"changePercentage\":-0.009679258821277459},{\"indexCode\":\"FADGI\",\"positionDate\":\"2026-11-03T09:03:15.0000002Z\",\"indexHighValue\":9505.1,\"indexLowValue\":9504.07,\"openValue\":9504.86,\"closeVa"
+    },
+    {
+     "url": "https://prod15-live-chat.sprinklr.com/api/livechat/handshake/v2/appHandshake",
+     "status": 200,
+     "snippet": "{\"chatSessionToken\":\"eyJhbGciOiJSUzI1NiJ9.eyJ2aXNpdFNlc3Npb25JZCI6IjZhZTlhMzY4MjVjMDBlMTNjMWY0MjFlOCIsInN1YiI6IkFjY2VzcyBUb2tlbiBHZW5lcmF0ZWQgQnkgU3ByaW5rbHIiLCJjaGF0TG9jYWxlIjoiZW4iLCJjaGF0VXNlckhhc0NvbnZlcnNhdGlvblN0YXJ0ZWQiOmZhbHNlLCJpc3MiOiJTUFJJTktMUiIsInZpc2l0U2Vzc2lvbklkRXhwaXJlQXQiOjE3OTM3Mzk4MTY4MzQsInR5cCI6IkpXVCIsImlzRGVmbGVjdGlvblRva2VuIjpmYWxzZSwidXNlclNlc3Npb25Mb2dpbk1ldGhvZCI6IntcIn"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch-delayed/1.1/securityBoards/mainMarket",
+     "status": 200,
+     "snippet": "{\"response\":{\"results\":[{\"companySymbol\":\"2POINTZERO\",\"companyISIN\":\"AEM001001019\",\"companyID\":\"Two Point Zero Group PJSC\",\"bidVolume\":747655,\"bid\":1.91,\"ask\":1.93,\"askVolume\":659908,\"last\":1.91,\"previousClose\":1.91,\"changePrice\":0.0,\"change\":0.0,\"value\":8355695.409999998,\"volume\":4347237,\"trades\":174,\"open\":1.92,\"price\":1.91,\"high\":1.96,\"low\":1.9,\"tradingState\":\"Normal Trading (Active)\",\"marketCa"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch/1.1/listed-company/status",
+     "status": 200,
+     "snippet": "{\"response\":{\"results\":[{\"secCode\":\"ADSB\",\"value\":\"20\"},{\"secCode\":\"AKIC\",\"value\":\"50\"},{\"secCode\":\"FCI\",\"value\":\"50\"},{\"secCode\":\"FIDELITYUNITED\",\"value\":\"50\"},{\"secCode\":\"FNF\",\"value\":\"20\"},{\"secCode\":\"HAYAH\",\"value\":\"20\"},{\"secCode\":\"IH\",\"value\":\"50\"},{\"secCode\":\"INB\",\"value\":\"20\"},{\"secCode\":\"METHAQ\",\"value\":\"50\"},{\"secCode\":\"TNI\",\"value\":\"20\"},{\"secCode\":\"WATANIA\",\"value\":\"20\"}],\"count\":11},\""
+    },
+    {
+     "url": "https://prod15-live-chat.sprinklr.com/api/livechat/conversation/fetch?sortKey=lastInteractionTime",
+     "status": 200,
+     "snippet": "{\"results\":[],\"hasMore\":false,\"totalCount\":0,\"before\":1793696617328,\"after\":1793696617327}"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch-delayed/1.1/securityBoards/mainMarket",
+     "status": 200,
+     "snippet": "{\"response\":{\"results\":[{\"companySymbol\":\"2POINTZERO\",\"companyISIN\":\"AEM001001019\",\"companyID\":\"Two Point Zero Group PJSC\",\"bidVolume\":747655,\"bid\":1.91,\"ask\":1.93,\"askVolume\":659908,\"last\":1.91,\"previousClose\":1.91,\"changePrice\":0.0,\"change\":0.0,\"value\":8355695.409999998,\"volume\":4347237,\"trades\":174,\"open\":1.92,\"price\":1.91,\"high\":1.96,\"low\":1.9,\"tradingState\":\"Normal Trading (Active)\",\"marketCa"
+    },
+    {
+     "url": "https://apigateway.adx.ae/adx/marketwatch/1.1/listed-company/status",
+     "status": 200,
+     "snippet": "{\"response\":{\"results\":[{\"secCode\":\"ADSB\",\"value\":\"20\"},{\"secCode\":\"AKIC\",\"value\":\"50\"},{\"secCode\":\"FCI\",\"value\":\"50\"},{\"secCode\":\"FIDELITYUNITED\",\"value\":\"50\"},{\"secCode\":\"FNF\",\"value\":\"20\"},{\"secCode\":\"HAYAH\",\"value\":\"20\"},{\"secCode\":\"IH\",\"value\":\"50\"},{\"secCode\":\"INB\",\"value\":\"20\"},{\"secCode\":\"METHAQ\",\"value\":\"50\"},{\"secCode\":\"TNI\",\"value\":\"20\"},{\"secCode\":\"WATANIA\",\"value\":\"20\"}],\"count\":11},\""
+    },
+    {
+     "url": "https://prod15-live-chat.sprinklr.com/api/livechat/event/fetch-notifications?cursor=A_6ae9a3680000000000000000",
+     "status": 200,
+     "snippet": "{\"results\":[],\"hasMore\":false,\"totalCount\":0,\"beforeCursor\":\"B_6ae9a3680000000000000001\",\"afterCursor\":\"A_6ae9a3680000000000000000\",\"details\":{\"SERVER_TIMESTAMP\":1793696617934}}"
+    }
+   ],
+   "error": null
+  },
+  {
+   "url": "https://www.dfm.ae/",
+   "status": 200,
+   "title": "DFM - Region's leading financial exchange",
+   "text": "RAISE CAPITAL\nINVESTING\nBROKERS & MEMBERS\nTHE EXCHANGE\nDISCOVER DFM\nSearch Equities\nعربي\nLOGIN\nMARKET\nOPEN\nDFMGI\n5838.66\n(30.83 / 0.531%)\nTOTAL VOLUME\n97,425,497\nTOTAL VALUE\n477,429,785.88\nTOTAL TRADES\n9,572\nMARKET WATCH\nDIP Holding, the company behind Dubai Investments Park has announced its intention to float on DFM.\nAccelerating Tomorrow\nAccess the markets, accelerate your vision, grow exponentially.\nWe believe in moving people, businesses, and ambitious visions forward.\nDISCOVER DFM\n19 OCTOBER, 2026\nDIP Holding, the company behind Dubai Investments Park has announced its intention to float on DFM.\nREAD MORE\n2 JULY, 2026\nMinistry of Finance Announces the Official Listing of the UAE's Inaugural Sovereign Retail T-Sukuk Programme\nREAD MORE\n15 OCT, 2025\nALEC Holdings Debuts on DFM in UAE’s Largest-Ever Construction Sector IPO\nREAD MORE\nAIRARABIA\n4.940\n(0.407%)\nAJMANBANK\n1.335\n(-0.373%)\nALANSARI\n0.920\n(0%)\nALEC\n1.170\n(-0.847%)\nALFIRDOUS\n0.265\n(-1.487%)\nALLIANCE\n0.000\n(0%)\nALRAMZ\n0.000\n(0%)\nALSALAMSUDAN\n0.000\n(0%)\nAMAN\n0.532\n(-1.299%)\nAMANAT\n1.585\n(0%)\nAMCREIT\n0.000\n(0%)\nAMLAK\n1.100\n(2.804%)\nARMX\n1.685\n(1.201%)\nASNIC\n0.000\n(0%)\nBHMCAPITAL\n0.998\n(-0.1%)\nCBD\n9.680\n(-0.206%)\nCHAE\n0.000\n(0%)\nCHAESHIN\n7.350\n(0.41%)\nDEPA\n0.000\n(0%)\nDEPACLA\n0.000\n(0%)\nDEWA\n2.700\n(-1.099%)\nDEYAAR\n0.695\n(0.289%)\nDFM\n1.255\n(-0.791%)\nDIB\n7.060\n(0.857%)\nDIC\n3.650\n(1.389%)\nDIN\n0.000\n(0%)\nDNIR\n0.000\n(0%)\nDRC\n0.000\n(0%)\nDSI\n0.245\n(0%)\nDTC\n2.140\n(-0.465%)\nDU\n12.360\n(-1.12%)\nDUBAIRESI\n1.240\n(-0.8%)\nEIBANK\n0.000",
+   "xhr": [
+    {
+     "url": "https://www.dfm.ae/icons/dfm-new-logo-white.svg",
+     "status": 200,
+     "snippet": "<svg fill=\"none\" height=\"68\" width=\"170\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m65.835 32.397h-4.673a17.01 17.01 0 0 0 -10.986-14.905l1.558-1.565-1.435-1.44-1.558 1.564c-2.295-6.135-8.035-10.623-14.84-11.035v-4.694h-2.008v4.694c-6.805.412-12.544 4.859-14.84 11.035l-1.558-1.565-1.434 1.441 1.557 1.565c-6.108 2.306-10.576 8.07-10.986 14.905h-4.632v2.018h4.673a17.01 17.01 0 0 0 10.987 14.905l-1"
+    },
+    {
+     "url": "https://www.dfm.ae/_locales/index/en/data.json?v=6e4d08e257dbe9bc",
+     "status": 200,
+     "snippet": "{\"commons\":{\"active\":\"Active\",\"actual\":\"Actual\",\"address\":\"Address\",\"AED\":\"AED\",\"all\":\"All\",\"apply\":\"Apply\",\"as-of-date\":\"As of date\",\"available\":\"Available\",\"back\":\"Back\",\"bod\":\"BOD Meeting\",\"bonds\":\"Bonds\",\"branches\":\"Branches\",\"broker-id\":\"Broker ID\",\"buy\":\"Buy\",\"calendar\":\"Calendar\",\"cancelled\":\"Cancelled\",\"circulars\":\"Circulars\",\"clear-filter\":\"Clear Filter\",\"click-here\":\"Click here\",\"close\":"
+    },
+    {
+     "url": "https://www.dfm.ae/api/_nuxt_icon/lucide.json?icons=check%2Cloader-circle",
+     "status": 200,
+     "snippet": "{\"prefix\":\"lucide\",\"lastModified\":1793473308,\"aliases\":{},\"width\":24,\"height\":24,\"icons\":{\"check\":{\"body\":\"<path fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" stroke-width=\\\"2\\\" d=\\\"M20 6L9 17l-5-5\\\"/>\"},\"loader-circle\":{\"body\":\"<path fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" stroke-width=\\\"2\\\" d=\\\"M21 12a9 9"
+    },
+    {
+     "url": "https://api2.dfm.ae/web/widgets/v1/data",
+     "status": 200,
+     "snippet": "[{\"id\":\"AIRARABIA\",\"c\":0.020,\"p\":4.940,\"bd\":0.000,\"cp\":0.407},{\"id\":\"AJMANBANK\",\"c\":-0.005,\"p\":1.335,\"bd\":0.000,\"cp\":-0.373},{\"id\":\"ALANSARI\",\"c\":0.000,\"p\":0.920,\"bd\":0.000,\"cp\":0.000},{\"id\":\"ALEC\",\"c\":-0.010,\"p\":1.170,\"bd\":0.000,\"cp\":-0.847},{\"id\":\"ALFIRDOUS\",\"c\":-0.004,\"p\":0.265,\"bd\":0.000,\"cp\":-1.487},{\"id\":\"ALLIANCE\",\"c\":0.000,\"p\":0.000,\"bd\":0.000,\"cp\":0.000},{\"id\":\"ALRAMZ\",\"c\":0.000,\"p\":0.000"
+    },
+    {
+     "url": "https://api2.dfm.ae/efsah/v1/prototype_efsah?lang=en&h7_datetime_format=MMM+dd%2C+yyyy+HH%3Amm%3Ass&take=3&skip=0&labels=pr&symbol=DFM&cms_resources=true",
+     "status": 200,
+     "snippet": "{\"root\" :\r\n[\r\n{\r\n\"id\" : \"af762a82-d8ca-4c2b-b985-f6329bf914c7\",\r\n\"publication_date\" : \"Nov 02, 2026 15:06:00\",\r\n\"headline\" : \"Press release - Nasdaq Dubai Welcomes Bank of China Dubai Branch’s CNH 2 Billion Issuance, Marking the Exchange’s First Yulan Bond Listing\",\r\n\"issuer_symbol\" : \"DFM\",\r\n\"issuer\" : \"DFM - Dubai Financial Market PJSC\",\r\n\"issuer_ar\" : \"DFM - سوق دبي المالي ش.م.ع\",\r\n\"announcemen"
+    },
+    {
+     "url": "https://api2.dfm.ae/mw/v1/status",
+     "status": 200,
+     "snippet": "{\"id\":\"2026-11-03T00:00:00\",\"mode\":1,\"trades\":9572,\"traded\":44,\"gained\":17,\"lost\":20,\"stable\":7,\"volume\":97425497,\"value\":477429785.880,\"index\":5838.660,\"changepercentage\":0.531,\"change\":30.830,\"totalblock\":0,\"blockvolume\":0,\"blockvalue\":0.0000,\"futuretrades\":5,\"futurevolume\":238,\"futurevalue\":248334.800,\"futureinterest\":2517.000,\"timestamp\":\"2026-11-03T13:03:43.11\",\"showfutures\":false,\"previouscl"
+    },
+    {
+     "url": "https://api2.dfm.ae/mw/v1/stocks",
+     "status": 200,
+     "snippet": "[{\"id\":\"ABTC\",\"openingprice\":0.000,\"closingprice\":0.000,\"previousclosingprice\":25.690,\"averageprice\":0.000,\"lastradeprice\":0.000,\"lastradevolume\":0,\"lastradetime\":null,\"highestprice\":0.000,\"lowestprice\":0.000,\"highestpricetime\":null,\"lowestpricetime\":null,\"highestin52weeks\":0.000,\"lowestin52weeks\":0.000,\"bidprice\":0.000,\"biddecimal\":0.000,\"bidvolume\":0,\"offerprice\":0.000,\"offerdecimal\":0.000,\"offe"
+    },
+    {
+     "url": "https://api2.dfm.ae/mw/v1/indices",
+     "status": 200,
+     "snippet": "[{\"id\":\"2026-11-03T13:03:00\",\"change\":30.830,\"changepercentage\":0.531,\"value\":5838.660,\"volume\":86334052},{\"id\":\"2026-11-03T13:02:00\",\"change\":33.090,\"changepercentage\":0.570,\"value\":5840.920,\"volume\":85883771},{\"id\":\"2026-11-03T13:01:00\",\"change\":32.120,\"changepercentage\":0.553,\"value\":5839.950,\"volume\":85458147},{\"id\":\"2026-11-03T13:00:00\",\"change\":30.810,\"changepercentage\":0.530,\"value\":5838.64"
+    }
+   ],
+   "error": null
+  },
+  {
+   "url": "https://marketwatch.dfm.ae/",
+   "status": null,
+   "title": null,
+   "text": null,
+   "xhr": [
+    {
+     "url": "https://marketwatch.dfm.ae/artifacts/img/brand-logo.7043be0.svg",
+     "status": 200,
+     "snippet": "<svg fill=\"none\" height=\"58\" width=\"145\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m56.172 27.696h-3.994a14.852 14.852 0 0 0 -2.808-7.85 14.477 14.477 0 0 0 -6.561-5.025l1.315-1.334-1.21-1.23-1.315 1.333a14.668 14.668 0 0 0 -4.94-6.67 14.294 14.294 0 0 0 -7.716-2.855v-4.065h-1.71v4.065a14.305 14.305 0 0 0 -7.718 2.855 14.679 14.679 0 0 0 -4.942 6.67l-1.312-1.333-1.21 1.23 1.312 1.334a14.48 14.48"
+    },
+    {
+     "url": "https://marketwatch.dfm.ae/artifacts/img/dfm-new-logo-white.25af061.svg",
+     "status": 200,
+     "snippet": "<svg fill=\"none\" height=\"68\" width=\"170\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"m65.835 32.397h-4.673a17.01 17.01 0 0 0 -10.986-14.905l1.558-1.565-1.435-1.44-1.558 1.564c-2.295-6.135-8.035-10.623-14.84-11.035v-4.694h-2.008v4.694c-6.805.412-12.544 4.859-14.84 11.035l-1.558-1.565-1.434 1.441 1.557 1.565c-6.108 2.306-10.576 8.07-10.986 14.905h-4.632v2.018h4.673a17.01 17.01 0 0 0 10.987 14.905l-1"
+    },
+    {
+     "url": "https://marketwatch.dfm.ae/api/fetch",
+     "status": 200,
+     "snippet": "[{\"id\":\"51e339aa-c237-523e-a45d-5ec36820d6c5\",\"data\":[{\"id\":\"BDBF32F8-F602-6339-B0D9-FF00009BE840\",\"tab_id\":\"BDBF32F8-F602-6339-B0D9-FF00009BE840\",\"name\":\"Market Watch\",\"name_ar\":\"شاشة التداول\",\"allow_grouping\":true,\"allow_manage_columns\":true,\"showasnew\":false,\"show_searchbox\":true,\"show_exchangefilter\":true,\"show_typefilter\":true,\"show_sectorfilter\":true,\"show_groupingfilter\":true,\"show_onlyinde"
+    },
+    {
+     "url": "https://marketwatch.dfm.ae/api/fetch",
+     "status": 200,
+     "snippet": "[{\"id\":\"bf1dcd7f-d2e9-1a4b-5973-bb77c3b200c6\",\"data\":{\"id\":\"2026-11-03T00:00:00\",\"mode\":1,\"trades\":8743,\"traded\":44,\"gained\":18,\"lost\":22,\"stable\":4,\"volume\":91727971,\"value\":432261072.420,\"index\":5842.480,\"changepercentage\":0.597,\"change\":34.650,\"totalblock\":0,\"blockvolume\":0,\"blockvalue\":0.0000,\"futuretrades\":5,\"futurevolume\":238,\"futurevalue\":248334.800,\"futureinterest\":2517.000,\"timestamp\":\"20"
+    },
+    {
+     "url": "https://marketwatch.dfm.ae/api/fetch",
+     "status": 200,
+     "snippet": "[{\"id\":\"688a08ee-c63c-f615-15e2-ff2eeae1a154\",\"data\":[{\"id\":\"DFM\",\"exchange\":\"DFM\",\"boardID\":\"001,002,003\"},{\"id\":\"NASDAQ Dubai\",\"exchange\":\"NASDAQ Dubai\",\"boardID\":\"003\"}]},{\"id\":\"52f72af1-f03c-71a3-3fe4-1a7b2f9b54c4\",\"data\":[{\"id\":\"140\",\"sectorName\":\"Debt Instrument\",\"showOnIndices\":false,\"shortName\":\"Debt Instrument\",\"sectorID\":\"140\",\"sectorCode\":\"DBT\",\"hideInFilter\":true},{\"id\":\"110\",\"sectorNa"
+    },
+    {
+     "url": "https://marketwatch.dfm.ae/api/fetch",
+     "status": 200,
+     "snippet": "[{\"id\":\"4d34a6d0-5c96-fbe8-3463-e101755c93fd\",\"data\":[]},{\"id\":\"28201c22-c92c-9c0f-37c1-fdcf8e86695e\",\"data\":[{\"id\":\"337581\",\"price\":0.9990,\"qty\":16214,\"type\":\"Sell\",\"symbol\":\"BHMCAPITAL  \",\"date\":\"2026-11-03\",\"time\":\"10:03:28\"},{\"id\":\"337582\",\"price\":0.9980,\"qty\":23786,\"type\":\"Sell\",\"symbol\":\"BHMCAPITAL  \",\"date\":\"2026-11-03\",\"time\":\"10:03:28\"},{\"id\":\"337644\",\"price\":0.9980,\"qty\":726,\"type\":\"Sell"
+    },
+    {
+     "url": "https://marketwatch.dfm.ae/dapi/fetch",
+     "status": 200,
+     "snippet": "[{\"id\":\"06c69e52-1811-e6d7-c6e2-f9db8215151f\",\"data\":[{\"id\":\"TAKAFUL-EM\",\"openingprice\":1.745,\"closingprice\":0.000,\"previousclosingprice\":1.725,\"averageprice\":1.727,\"lastradeprice\":1.710,\"lastradevolume\":5000,\"lastradetime\":\"2026-11-03T12:48:47\",\"highestprice\":1.745,\"lowestprice\":1.710,\"highestpricetime\":\"2026-11-03T10:02:41\",\"lowestpricetime\":\"2026-11-03T12:48:47\",\"highestin52weeks\":1.940,\"lowest"
+    },
+    {
+     "url": "https://marketwatch.dfm.ae/dapi/fetch",
+     "status": 200,
+     "snippet": "[{\"id\":\"9b335a0a-ca0c-e718-8584-2512afa655c1\",\"data\":[{\"id\":\"66\",\"timestamp\":\"2026-11-03T10:00:03.393\",\"englishname\":\"Materials\",\"arabicname\":\"قطاع المواد الأساسية\",\"value\":203.400,\"change\":0.000,\"changepercentage\":0.000,\"volume\":0,\"sectorcode\":null},{\"id\":\"33\",\"timestamp\":\"2026-11-03T12:48:34.31\",\"englishname\":\"Real Estate\",\"arabicname\":\"قطاع العقارات\",\"value\":11459.200,\"change\":293.400,\"changepe"
+    }
+   ],
+   "error": "Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://marketwatch.dfm.ae/\", waiting until \"networkidle\"\n"
+  }
+ ]
+}
