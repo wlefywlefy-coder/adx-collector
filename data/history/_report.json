@@ -1,0 +1,42 @@
+{
+ "ADNOCGAS": {
+  "http": 429,
+  "err": "Too Many Requests\r\n"
+ },
+ "ADNOCDRILL": {
+  "http": 429,
+  "err": "Too Many Requests\r\n"
+ },
+ "ADIB": {
+  "http": 429,
+  "err": "Too Many Requests\r\n"
+ },
+ "ALPHADHABI": {
+  "http": 429,
+  "err": "Too Many Requests\r\n"
+ },
+ "BOROUGE": {
+  "http": 429,
+  "err": "Too Many Requests\r\n"
+ },
+ "ALDAR": {
+  "http": 429,
+  "err": "Too Many Requests\r\n"
+ },
+ "ADNOCLS": {
+  "http": 429,
+  "err": "Too Many Requests\r\n"
+ },
+ "ADNOCDIST": {
+  "http": 429,
+  "err": "Too Many Requests\r\n"
+ },
+ "FERTIGLB": {
+  "http": 429,
+  "err": "Too Many Requests\r\n"
+ },
+ "PRESIGHT": {
+  "http": 429,
+  "err": "Too Many Requests\r\n"
+ }
+}
