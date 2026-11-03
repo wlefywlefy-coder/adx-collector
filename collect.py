@@ -1,48 +1,57 @@
-import json, os, sys, time, datetime
-import requests
+import json, os, re, time, datetime
+from playwright.sync_api import sync_playwright
 
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-SOURCES = {
+PAGES = {
     "adx": {
-        "url": "https://apigateway.adx.ae/adx/marketwatch/1.1/securityBoards/mainMarket",
-        "status_url": "https://apigateway.adx.ae/adx/marketwatch/1.1/trading-status",
-        "referer": "https://www.adx.ae/",
+        "page": "https://www.adx.ae/",
+        "want": {
+            "stocks": r"/marketwatch/1\.1/securityBoards/mainMarket",
+            "status": r"/marketwatch/1\.1/trading-status",
+        },
     },
     "dfm": {
-        "url": "https://www.dfm.ae/mw/v1/stocks",
-        "status_url": "https://www.dfm.ae/mw/v1/status",
-        "referer": "https://www.dfm.ae/",
+        "page": "https://www.dfm.ae/",
+        "want": {
+            "stocks": r"/mw/v1/stocks",
+            "status": r"/mw/v1/status",
+            "indices": r"/mw/v1/indices",
+        },
     },
 }
 
-def fetch(url, referer):
-    h = {"User-Agent": UA, "Accept": "application/json, text/plain, */*", "Referer": referer, "Origin": referer.rstrip("/")}
-    r = requests.get(url, headers=h, timeout=30)
-    return r.status_code, r.text
-
 now = datetime.datetime.now(datetime.timezone.utc)
 out = {"ts_utc": now.isoformat(timespec="seconds"), "sources": {}}
-for name, s in SOURCES.items():
-    rec = {"ok": False}
-    try:
-        code, body = fetch(s["url"], s["referer"])
-        rec["http"] = code
-        rec["bytes"] = len(body)
-        if code == 200:
-            rec["data"] = json.loads(body)
-            rec["ok"] = True
-        else:
-            rec["error"] = body[:200]
+
+with sync_playwright() as p:
+    b = p.chromium.launch()
+    for name, cfg in PAGES.items():
+        rec = {"ok": False, "parts": {}}
+        got = {}
         try:
-            c2, b2 = fetch(s["status_url"], s["referer"])
-            rec["status_http"] = c2
-            if c2 == 200:
-                rec["market_status"] = json.loads(b2)
+            ctx = b.new_context(user_agent=UA)
+            pg = ctx.new_page()
+            def on_resp(r, got=got, cfg=cfg):
+                for key, pat in cfg["want"].items():
+                    if re.search(pat, r.url) and r.status == 200 and key not in got:
+                        try:
+                            got[key] = json.loads(r.text())
+                        except Exception:
+                            pass
+            pg.on("response", on_resp)
+            pg.goto(cfg["page"], wait_until="domcontentloaded", timeout=60000)
+            for _ in range(20):
+                if "stocks" in got:
+                    break
+                pg.wait_for_timeout(1500)
+            pg.wait_for_timeout(1500)
+            ctx.close()
         except Exception as e:
-            rec["status_error"] = str(e)[:150]
-    except Exception as e:
-        rec["error"] = str(e)[:200]
-    out["sources"][name] = rec
+            rec["error"] = str(e)[:200]
+        rec["parts"] = got
+        rec["ok"] = "stocks" in got
+        out["sources"][name] = rec
+    b.close()
 
 os.makedirs("data", exist_ok=True)
 day = now.strftime("%Y-%m-%d")
@@ -50,4 +59,4 @@ os.makedirs("data/" + day, exist_ok=True)
 txt = json.dumps(out, ensure_ascii=False)
 open("data/latest.json", "w", encoding="utf-8").write(txt)
 open("data/%s/%s.json" % (day, now.strftime("%H%M")), "w", encoding="utf-8").write(txt)
-print({k: (v.get("ok"), v.get("http"), v.get("bytes"), (v.get("error") or "")[:80]) for k, v in out["sources"].items()})
+print({k: (v["ok"], list(v["parts"].keys()), v.get("error")) for k, v in out["sources"].items()})
