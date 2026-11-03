@@ -1,0 +1,105 @@
+{
+ "adx": {
+  "xhr": [
+   [
+    "https://prod15-live-chat.sprinklr.com/api/livechat/handshake/v2/appHandshake",
+    10835
+   ],
+   [
+    "https://apigateway.adx.ae/adx/lookups/1.1/data/sector",
+    828
+   ],
+   [
+    "https://apigateway.adx.ae/adx/lookups/1.1/data/symbol-sector",
+    22214
+   ],
+   [
+    "https://apigateway.adx.ae/adx/lookups/1.1/data/listed-companies",
+    19017
+   ],
+   [
+    "https://apigateway.adx.ae/adx/marketwatch-delayed/1.1/securityBoard/marketwatch",
+    66332
+   ],
+   [
+    "https://apigateway.adx.ae/adx/marketwatch-delayed/1.1/topFiveValueCompany",
+    791
+   ],
+   [
+    "https://apigateway.adx.ae/adx/marketwatch-delayed/1.1/scrollingTicker",
+    15956
+   ],
+   [
+    "https://apigateway.adx.ae/adx/marketwatch-delayed/1.1/securityBoard/marketwatch",
+    66332
+   ],
+   [
+    "https://prod15-live-chat.sprinklr.com/api/livechat/conversation/fetch",
+    90
+   ],
+   [
+    "https://apigateway.adx.ae/adx/marketwatch-delayed/1.1/topFiveValueCompany",
+    791
+   ],
+   [
+    "https://prod15-live-chat.sprinklr.com/api/livechat/event/fetch-notifications",
+    177
+   ],
+   [
+    "https://apigateway.adx.ae/adx/tradings/1.1/news",
+    3980
+   ],
+   [
+    "https://apigateway.adx.ae/adx/marketwatch/1.1/trading-status",
+    142
+   ],
+   [
+    "https://apigateway.adx.ae/adx/marketwatch/1.1/indexChartDay/FADGI",
+    191400
+   ],
+   [
+    "https://apigateway.adx.ae/adx/marketwatch-delayed/1.1/securityBoard/marketwatch",
+    66332
+   ],
+   [
+    "https://apigateway.adx.ae/adx/marketwatch/1.1/listed-company/status",
+    463
+   ],
+   [
+    "https://apigateway.adx.ae/adx/marketwatch-delayed/1.1/securityBoard/marketwatch",
+    66332
+   ],
+   [
+    "https://prod15-live-chat.sprinklr.com/api/livechat/handshake/v2/appHandshake",
+    10835
+   ],
+   [
+    "https://prod15-live-chat.sprinklr.com/api/livechat/conversation/fetch",
+    90
+   ],
+   [
+    "https://apigateway.adx.ae/adx/marketwatch-delayed/1.1/scrollingTicker",
+    15956
+   ],
+   [
+    "https://prod15-live-chat.sprinklr.com/api/livechat/event/fetch-notifications",
+    177
+   ]
+  ],
+  "links": [
+   "https://www.adx.ae/en/issuers/why-list/overview",
+   "https://www.adx.ae/en/issuers/issuers-information/issuers-directory",
+   "https://www.adx.ae/en/issuers/issuers-information/suspension-and-resumption",
+   "https://www.adx.ae/en/issuers/issuers-information/listed-companies-disclosures",
+   "https://www.adx.ae/en/issuers/resources/rules-and-regulations"
+  ],
+  "xhr_before_click": 17,
+  "opened": "https://www.adx.ae/en/issuers/why-list/overview",
+  "title": "Issuing with ADX"
+ },
+ "dfm": {
+  "xhr": [],
+  "links": [],
+  "xhr_before_click": 0
+ }
+}
