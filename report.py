@@ -12,10 +12,16 @@ def num(x):
     except Exception: return 0.0
 
 
-COMM_SIDE = 0.00315 / 2
+# ADIB Securities schedule (adibsecurities.ae pricing page): ADX total max 0.150%, DFM 0.275% per executed order,
+# plus AED 10 fixed per order per side, plus 5% VAT on fees (assumed to apply to all). Reference position size assumed.
+POS_AED = 50000
+SIDE_PCT = {"ADX": 0.00150, "DFM": 0.00275}
 SPREAD_DEF = .003
-def net_ret(entry, exit_):
-    return exit_ * (1 - SPREAD_DEF / 2) * (1 - COMM_SIDE) / (entry * (1 + SPREAD_DEF / 2) * (1 + COMM_SIDE)) - 1
+def side_cost(m): return SIDE_PCT[m] * 1.05 + 10 * 1.05 / POS_AED
+def rt_cost(m): return 2 * side_cost(m) + SPREAD_DEF
+def net_ret(m, entry, exit_):
+    c = side_cost(m)
+    return exit_ * (1 - SPREAD_DEF / 2) * (1 - c) / (entry * (1 + SPREAD_DEF / 2) * (1 + c)) - 1
 
 def day_series(day, m, s):
     import glob
@@ -57,10 +63,10 @@ def evaluate_watch(log, today):
                 it["result"] = dict(day=nd, status="لم يُفعَّل", net=None, why="لم يكسر السهم مستوى الدخول %s (أعلى إغلاق لحظي %s)" % (ent, round(hi, 3)))
             else:
                 if res is None: res = ("close", ser[-1][0], ser[-1][1])
-                n = net_ret(trig[1], res[2]) * 100
+                n = net_ret(it["m"], trig[1], res[2]) * 100
                 label = {"target": "أصاب الهدف", "stop": "ضرب الوقف", "close": "أُغلق بنهاية اليوم"}[res[0]]
                 it["result"] = dict(day=nd, status=label, net=round(n, 2), entry_px=trig[1], exit_px=res[2],
-                                    why="كسر المستوى عند %s بسعر %s ثم %s بسعر %s (الصافي بعد العمولة 0.315%% والفارق السعري)" % (trig[0], trig[1], label, res[2]))
+                                    why="كسر المستوى عند %s بسعر %s ثم %s بسعر %s (الصافي بعد عمولة مصرف أبوظبي الإسلامي ورسوم السوق وVAT والفارق السعري)" % (trig[0], trig[1], label, res[2]))
     return log
 
 def reason(r):
@@ -109,7 +115,7 @@ def build():
     prev = [d for d in sorted(log) if d < day and any(i.get("result") for i in log[d])]
     watch_eval = [dict(s=i["s"], m=i["m"], nom_day=d, reason=i["reason"], **i["result"]) for d in prev[-1:] for i in log[d] if i.get("result")]
     for r in watch: r["reason"] = reason(r)
-    tb = ["قائمة مراقبة لغدٍ (وصفية، غير مختبرة؛ الدخول = كسر أعلى سعر اليوم، هدف +1%، وقف -0.8%، والعمولة 0.315% لم تُخصم من المستويات)"]
+    tb = ["قائمة مراقبة لغدٍ (وصفية، غير مختبرة؛ الدخول = كسر أعلى سعر اليوم، هدف +1%، وقف -0.8%، وتكلفة الذهاب والإياب حسب مصرف أبوظبي الإسلامي: ADX نحو %.2f%% و DFM نحو %.2f%% شاملة الرسوم وVAT والفارق السعري، ولم تُخصم من المستويات)" % (rt_cost("ADX") * 100, rt_cost("DFM") * 100)]
     for r in watch: tb.append("%s: دخول فوق %s | هدف %s | وقف %s | السبب: %s" % (r["s"], r["entry"], r["tgt"], r["stp"], r["reason"]))
     if not watch: tb.append("لا يوجد سهم يحقق الشروط اليوم")
     if watch_eval:
@@ -170,7 +176,7 @@ body{width:900px;background:#0f1b2d;font-family:"Noto Sans Arabic","Noto Naskh A
 <div class="col"><div class="ct">🔴 الأكثر انخفاضًا</div>%s</div>
 </div>
 <div class="cols"><div class="col"><div class="ct">💧 الأعلى سيولة (قيمة التداول)</div>%s</div></div>
-<div class="cols"><div class="col"><div class="ct">👁 قائمة مراقبة لليوم التالي (وصفية، ليست توصية)</div>%s<div class="l" style="padding:6px 0">مستوى الدخول = كسر أعلى سعر اليوم · هدف +1%% · وقف −0.8%%. الشروط: ارتفاع 0.5–4%% · إغلاق قرب أعلى اليوم · سيولة ≥ 1م · غير مختبرة</div></div></div>
+<div class="cols"><div class="col"><div class="ct">👁 قائمة مراقبة لليوم التالي (وصفية، ليست توصية)</div>%s<div class="l" style="padding:6px 0">التكلفة ذهابًا وإيابًا (مصرف أبوظبي الإسلامي): ADX ~0.66%% · DFM ~0.92%% · مستوى الدخول = كسر أعلى سعر اليوم · هدف +1%% · وقف −0.8%%. الشروط: ارتفاع 0.5–4%% · إغلاق قرب أعلى اليوم · سيولة ≥ 1م · غير مختبرة</div></div></div>
 <div class="f">تحليل وصفي وليس توصية شراء أو بيع · الاختبار التجريبي ورقي ولا يُحكم عليه قبل 30 إشارة مغلقة لكل قاعدة</div>
 </body></html>""" % (d["date"], health, d["traded"], d["universe"],
         r1.get("closed", "؟"), r2.get("closed", "؟"),
