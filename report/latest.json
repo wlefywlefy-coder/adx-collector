@@ -1,0 +1,232 @@
+{
+ "date": "2026-11-16",
+ "ts_utc": "2026-11-16T06:10:31+00:00",
+ "collector_ok": false,
+ "universe": 101,
+ "priced": 62,
+ "traded": 62,
+ "missing": [
+  "ADX:ANAN",
+  "ADX:ASM",
+  "ADX:DRIVE",
+  "ADX:ESG",
+  "ADX:FNF",
+  "ADX:GHITHA",
+  "ADX:MANAZEL",
+  "ADX:MODON",
+  "ADX:PALMS",
+  "ADX:TAQA"
+ ],
+ "gainers": [
+  {
+   "m": "ADX",
+   "s": "ADAVIATION",
+   "last": 5.91,
+   "ch": 6.104129263913816,
+   "v": 6181589.969999999
+  },
+  {
+   "m": "ADX",
+   "s": "SPACE42",
+   "last": 2.1,
+   "ch": 2.4390243902439046,
+   "v": 14214032.290000003
+  },
+  {
+   "m": "DFM",
+   "s": "ALEC",
+   "last": 1.305,
+   "ch": 1.5564202334630295,
+   "v": 250825.98
+  },
+  {
+   "m": "ADX",
+   "s": "ALPHADATA",
+   "last": 1.42,
+   "ch": 1.4285714285714235,
+   "v": 5041.0
+  },
+  {
+   "m": "DFM",
+   "s": "SALIK",
+   "last": 5.48,
+   "ch": 1.2939001848428777,
+   "v": 444277.08
+  }
+ ],
+ "losers": [
+  {
+   "m": "DFM",
+   "s": "NIND",
+   "last": 2.76,
+   "ch": -4.827586206896561,
+   "v": 85.56
+  },
+  {
+   "m": "ADX",
+   "s": "GFH",
+   "last": 1.61,
+   "ch": -3.0120481927710774,
+   "v": 10819.2
+  },
+  {
+   "m": "DFM",
+   "s": "TECOM",
+   "last": 3.36,
+   "ch": -1.4662756598240567,
+   "v": 10673.05
+  },
+  {
+   "m": "DFM",
+   "s": "DU",
+   "last": 12.84,
+   "ch": -1.2307692307692353,
+   "v": 27333.02
+  },
+  {
+   "m": "ADX",
+   "s": "DANA",
+   "last": 0.806,
+   "ch": -1.1042944785275899,
+   "v": 341453.659
+  }
+ ],
+ "top_value": [
+  {
+   "m": "DFM",
+   "s": "EMAAR",
+   "last": 12.18,
+   "ch": -0.9756097560975729,
+   "v": 20905177.14
+  },
+  {
+   "m": "ADX",
+   "s": "SPACE42",
+   "last": 2.1,
+   "ch": 2.4390243902439046,
+   "v": 14214032.290000003
+  },
+  {
+   "m": "ADX",
+   "s": "ADNOCGAS",
+   "last": 3.44,
+   "ch": 0.0,
+   "v": 8251817.83
+  },
+  {
+   "m": "ADX",
+   "s": "ADAVIATION",
+   "last": 5.91,
+   "ch": 6.104129263913816,
+   "v": 6181589.969999999
+  },
+  {
+   "m": "DFM",
+   "s": "EMAARDEV",
+   "last": 14.7,
+   "ch": 0.13623978201635634,
+   "v": 5291087.26
+  }
+ ],
+ "core10": [
+  {
+   "m": "ADX",
+   "s": "FERTIGLB",
+   "last": 2.2,
+   "ch": 0.4566210045662267,
+   "v": 265184.83
+  },
+  {
+   "m": "ADX",
+   "s": "ADNOCLS",
+   "last": 6.77,
+   "ch": 0.4451038575667532,
+   "v": 2366311.4899999993
+  },
+  {
+   "m": "ADX",
+   "s": "ALPHADHABI",
+   "last": 7.07,
+   "ch": 0.14164305949009304,
+   "v": 2728131.959999999
+  },
+  {
+   "m": "ADX",
+   "s": "ADNOCDIST",
+   "last": 3.83,
+   "ch": 0.0,
+   "v": 607885.5500000002
+  },
+  {
+   "m": "ADX",
+   "s": "ADNOCDRILL",
+   "last": 5.79,
+   "ch": 0.0,
+   "v": 157703.49999999997
+  },
+  {
+   "m": "ADX",
+   "s": "ADNOCGAS",
+   "last": 3.44,
+   "ch": 0.0,
+   "v": 8251817.83
+  },
+  {
+   "m": "ADX",
+   "s": "BOROUGE",
+   "last": 2.29,
+   "ch": 0.0,
+   "v": 1953370.0
+  },
+  {
+   "m": "ADX",
+   "s": "ALDAR",
+   "last": 8.52,
+   "ch": -0.11723329425556983,
+   "v": 707968.75
+  },
+  {
+   "m": "ADX",
+   "s": "PRESIGHT",
+   "last": 3.62,
+   "ch": -0.5494505494505475,
+   "v": 136458.61000000002
+  },
+  {
+   "m": "ADX",
+   "s": "ADIB",
+   "last": 23.32,
+   "ch": -0.6814310051107331,
+   "v": 2644488.48
+  }
+ ],
+ "forward": {
+  "R1": {
+   "closed": 0,
+   "open": 0,
+   "mean_net": null,
+   "win": null,
+   "profit_factor": null,
+   "mean_excess_vs_ew": null,
+   "judgeable": false
+  },
+  "R2": {
+   "closed": 0,
+   "open": 0,
+   "mean_net": null,
+   "win": null,
+   "profit_factor": null,
+   "mean_excess_vs_ew": null,
+   "judgeable": false
+  },
+  "ALL": {
+   "closed": 0,
+   "open": 0,
+   "mean_net": null,
+   "win": null,
+   "profit_factor": null,
+   "mean_excess_vs_ew": null,
+   "judgeable": false
+  }
+ }
+}
