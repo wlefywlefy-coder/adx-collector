@@ -20,6 +20,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install playwright && playwright install --with-deps chromium
+      - run: sudo apt-get install -y fonts-noto-core fonts-noto-color-emoji
       - name: loop
         env:
           GH_TOKEN: ${{ github.token }}
@@ -32,7 +33,8 @@ jobs:
             if [ $DOW -le 5 ] && [ $HM -ge 605 ] && [ $HM -le 1055 ]; then
               python collect.py || echo "collect failed"
               python forward.py . || echo "forward failed"
-              git add data forward
+              if [ $HM -ge 1040 ]; then python report.py . || echo "report failed"; fi
+              git add data forward report
               git commit -m snapshot || echo "nothing to commit"
               git pull --rebase || true
               git push || true
