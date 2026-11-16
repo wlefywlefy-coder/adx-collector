@@ -109,7 +109,13 @@ def build():
     prev = [d for d in sorted(log) if d < day and any(i.get("result") for i in log[d])]
     watch_eval = [dict(s=i["s"], m=i["m"], nom_day=d, reason=i["reason"], **i["result"]) for d in prev[-1:] for i in log[d] if i.get("result")]
     for r in watch: r["reason"] = reason(r)
-    return dict(date=ts[:10], watch_eval=watch_eval, ts_utc=ts, collector_ok=fresh, universe=universe_n, priced=len(rows), traded=len(traded), missing=missing,
+    tb = ["قائمة مراقبة لغدٍ (وصفية، غير مختبرة؛ الدخول = كسر أعلى سعر اليوم، هدف +1%، وقف -0.8%، والعمولة 0.315% لم تُخصم من المستويات)"]
+    for r in watch: tb.append("%s: دخول فوق %s | هدف %s | وقف %s | السبب: %s" % (r["s"], r["entry"], r["tgt"], r["stp"], r["reason"]))
+    if not watch: tb.append("لا يوجد سهم يحقق الشروط اليوم")
+    if watch_eval:
+        tb.append("نتيجة ترشيحات الجلسة السابقة (صافي بعد العمولة):")
+        for e in watch_eval: tb.append("%s: %s%s - %s" % (e["s"], e["status"], (" %+.2f%%" % e["net"]) if e.get("net") is not None else "", e["why"]))
+    return dict(date=ts[:10], text_block="\n".join(tb), watch_eval=watch_eval, ts_utc=ts, collector_ok=fresh, universe=universe_n, priced=len(rows), traded=len(traded), missing=missing,
                 gainers=gain, losers=lose, top_value=val, watch=watch, core10=core, forward=fs)
 
 def fmt_ch(x): return ("+" if x >= 0 else "−") + "%.2f%%" % abs(x)
