@@ -11,6 +11,62 @@ def num(x):
     try: return float(x)
     except Exception: return 0.0
 
+
+COMM_SIDE = 0.00315 / 2
+SPREAD_DEF = .003
+def net_ret(entry, exit_):
+    return exit_ * (1 - SPREAD_DEF / 2) * (1 - COMM_SIDE) / (entry * (1 + SPREAD_DEF / 2) * (1 + COMM_SIDE)) - 1
+
+def day_series(day, m, s):
+    import glob
+    out = []
+    for p in sorted(glob.glob(os.path.join(ROOT, "data", day, "????.json"))):
+        try:
+            j = json.load(open(p, encoding="utf-8"))
+            if m == "ADX":
+                r = {x["companySymbol"]: x for x in j["sources"]["adx"]["parts"]["stocks"]["response"]["results"]}.get(ALIAS.get(s, s))
+                v = num(r.get("last")) if r else 0
+            else:
+                r = {x["id"]: x for x in j["sources"]["dfm"]["parts"]["stocks"]}.get(s)
+                v = (num(r.get("lastradeprice")) or num(r.get("closingprice"))) if r else 0
+            if v > 0: out.append((os.path.basename(p)[:4], v))
+        except Exception: continue
+    return out
+
+def evaluate_watch(log, today):
+    import glob
+    days = sorted(os.path.basename(d) for d in glob.glob(os.path.join(ROOT, "data", "????-??-??")))
+    for d, items in log.items():
+        nxt = [x for x in days if x > d]
+        if not nxt or nxt[0] >= today and not any(os.path.exists(p) for p in [os.path.join(ROOT, "data", nxt[0], "1045.json")]) and nxt[0] == today:
+            pass
+        for it in items:
+            if it.get("result") or not nxt: continue
+            nd = nxt[0]
+            ser = day_series(nd, it["m"], it["s"])
+            if not ser or ser[-1][0] < "1045": continue   # next day not finished yet
+            ent = it["entry"]; trig = None; res = None
+            for hhmm, v in ser:
+                if trig is None:
+                    if v > ent: trig = (hhmm, v)
+                    continue
+                if v >= trig[1] * 1.01: res = ("target", hhmm, v); break
+                if v <= trig[1] * 0.992: res = ("stop", hhmm, v); break
+            hi = max(v for _, v in ser)
+            if trig is None:
+                it["result"] = dict(day=nd, status="لم يُفعَّل", net=None, why="لم يكسر السهم مستوى الدخول %s (أعلى إغلاق لحظي %s)" % (ent, round(hi, 3)))
+            else:
+                if res is None: res = ("close", ser[-1][0], ser[-1][1])
+                n = net_ret(trig[1], res[2]) * 100
+                label = {"target": "أصاب الهدف", "stop": "ضرب الوقف", "close": "أُغلق بنهاية اليوم"}[res[0]]
+                it["result"] = dict(day=nd, status=label, net=round(n, 2), entry_px=trig[1], exit_px=res[2],
+                                    why="كسر المستوى عند %s بسعر %s ثم %s بسعر %s (الصافي بعد العمولة 0.315%% والفارق السعري)" % (trig[0], trig[1], label, res[2]))
+    return log
+
+def reason(r):
+    p = (r["last"] - r["lo"]) / (r["hi"] - r["lo"]) * 100 if r["hi"] > r["lo"] else 0
+    return "ارتفع %.1f%% وأغلق عند %d%% من مدى اليوم مع سيولة %.1f م" % (r["ch"], p, r["v"] / 1e6)
+
 def build():
     j = json.load(open(os.path.join(ROOT, "data", "latest.json"), encoding="utf-8"))
     ts = j["ts_utc"]
@@ -41,17 +97,36 @@ def build():
     except Exception: fs = {}
     now = datetime.now(timezone.utc)
     fresh = ts[:10] == now.strftime("%Y-%m-%d") and ts[11:16] >= "10:30"
-    return dict(date=ts[:10], ts_utc=ts, collector_ok=fresh, universe=universe_n, priced=len(rows), traded=len(traded), missing=missing,
+    logp = os.path.join(ROOT, "report", "watch_log.json")
+    try: log = json.load(open(logp, encoding="utf-8"))
+    except Exception: log = {}
+    day = ts[:10]
+    log = evaluate_watch(log, day)
+    if fresh:
+        log[day] = [dict(m=r["m"], s=r["s"], entry=r["entry"], tgt=r["tgt"], stp=r["stp"], reason=reason(r)) for r in watch]
+    os.makedirs(os.path.dirname(logp), exist_ok=True)
+    json.dump(log, open(logp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    prev = [d for d in sorted(log) if d < day and any(i.get("result") for i in log[d])]
+    watch_eval = [dict(s=i["s"], m=i["m"], nom_day=d, reason=i["reason"], **i["result"]) for d in prev[-1:] for i in log[d] if i.get("result")]
+    for r in watch: r["reason"] = reason(r)
+    return dict(date=ts[:10], watch_eval=watch_eval, ts_utc=ts, collector_ok=fresh, universe=universe_n, priced=len(rows), traded=len(traded), missing=missing,
                 gainers=gain, losers=lose, top_value=val, watch=watch, core10=core, forward=fs)
 
 def fmt_ch(x): return ("+" if x >= 0 else "−") + "%.2f%%" % abs(x)
 def fmt_v(v): return ("%.1f م" % (v / 1e6)) if v >= 1e6 else ("%d ألف" % round(v / 1e3))
 
-def wlines(items):
+def wlines(items, ev=None):
     out = ""
     for r in items:
-        out += '<div class="r"><span><b>%s</b> <i>%s</i> <span class="up">%s</span></span><span style="direction:ltr;unicode-bidi:isolate;font-size:17px">دخول فوق %s · هدف %s · وقف %s</span></div>' % (r["s"], r["m"], fmt_ch(r["ch"]), r["entry"], r["tgt"], r["stp"])
-    return out or '<div class="r"><span>لا يوجد</span><span></span></div>'
+        out += '<div class="r" style="flex-wrap:wrap"><span><b>%s</b> <i>%s</i></span><span style="direction:ltr;unicode-bidi:isolate;font-size:17px">دخول فوق %s · هدف %s · وقف %s</span><span style="width:100%%;font-size:14px;color:#9fb3cc">السبب: %s</span></div>' % (r["s"], r["m"], r["entry"], r["tgt"], r["stp"], r.get("reason", ""))
+    if not items: out = '<div class="r"><span>لا يوجد</span><span></span></div>'
+    if ev:
+        out += '<div class="ct" style="padding-top:14px">✅ نتيجة ترشيحات الجلسة السابقة (صافي بعد العمولة)</div>'
+        for e in ev:
+            cls = "up" if (e.get("net") or 0) > 0 else ("dn" if (e.get("net") or 0) < 0 else "")
+            nt = ("%+.2f%%" % e["net"]) if e.get("net") is not None else "—"
+            out += '<div class="r" style="flex-wrap:wrap"><span><b>%s</b> · %s</span><span class="%s">%s</span><span style="width:100%%;font-size:14px;color:#9fb3cc">%s</span></div>' % (e["s"], e["status"], cls, nt, e["why"])
+    return out
 
 def html(d):
     def lines(items, kind):
@@ -93,7 +168,7 @@ body{width:900px;background:#0f1b2d;font-family:"Noto Sans Arabic","Noto Naskh A
 <div class="f">تحليل وصفي وليس توصية شراء أو بيع · الاختبار التجريبي ورقي ولا يُحكم عليه قبل 30 إشارة مغلقة لكل قاعدة</div>
 </body></html>""" % (d["date"], health, d["traded"], d["universe"],
         r1.get("closed", "؟"), r2.get("closed", "؟"),
-        lines(d["gainers"], "ch"), lines(d["losers"], "ch"), lines(d["top_value"], "v"), wlines(d.get("watch", [])))
+        lines(d["gainers"], "ch"), lines(d["losers"], "ch"), lines(d["top_value"], "v"), wlines(d.get("watch", []), d.get("watch_eval")))
 
 def main():
     d = build()
