@@ -34,6 +34,7 @@ def build():
     val = sorted(traded, key=lambda r: -r["v"])[:5]
     def pos(r): return (r["last"] - r["lo"]) / (r["hi"] - r["lo"]) if r["hi"] > r["lo"] > 0 else 0
     watch = sorted([r for r in traded if 0.5 <= r["ch"] <= 4 and r["v"] >= 1e6 and pos(r) >= 0.7], key=lambda r: -r["v"])[:5]
+    for r in watch: r["entry"] = r["hi"]; r["tgt"] = round(r["hi"] * 1.01, 3); r["stp"] = round(r["hi"] * 0.992, 3)
     core = [r for r in rows if r["m"] == "ADX" and r["s"] in U["CORE10"]]
     core.sort(key=lambda r: -r["ch"])
     try: fs = json.load(open(os.path.join(ROOT, "forward", "summary.json"), encoding="utf-8"))["rules"]
@@ -45,6 +46,12 @@ def build():
 
 def fmt_ch(x): return ("+" if x >= 0 else "−") + "%.2f%%" % abs(x)
 def fmt_v(v): return ("%.1f م" % (v / 1e6)) if v >= 1e6 else ("%d ألف" % round(v / 1e3))
+
+def wlines(items):
+    out = ""
+    for r in items:
+        out += '<div class="r"><span><b>%s</b> <i>%s</i> <span class="up">%s</span></span><span style="direction:ltr;unicode-bidi:isolate;font-size:17px">دخول فوق %s · هدف %s · وقف %s</span></div>' % (r["s"], r["m"], fmt_ch(r["ch"]), r["entry"], r["tgt"], r["stp"])
+    return out or '<div class="r"><span>لا يوجد</span><span></span></div>'
 
 def html(d):
     def lines(items, kind):
@@ -82,11 +89,11 @@ body{width:900px;background:#0f1b2d;font-family:"Noto Sans Arabic","Noto Naskh A
 <div class="col"><div class="ct">🔴 الأكثر انخفاضًا</div>%s</div>
 </div>
 <div class="cols"><div class="col"><div class="ct">💧 الأعلى سيولة (قيمة التداول)</div>%s</div></div>
-<div class="cols"><div class="col"><div class="ct">👁 قائمة مراقبة لليوم التالي (وصفية، ليست توصية)</div>%s<div class="l" style="padding:6px 0">الشروط: ارتفاع 0.5–4%% · إغلاق قرب أعلى اليوم · سيولة ≥ 1م · غير مختبرة</div></div></div>
+<div class="cols"><div class="col"><div class="ct">👁 قائمة مراقبة لليوم التالي (وصفية، ليست توصية)</div>%s<div class="l" style="padding:6px 0">مستوى الدخول = كسر أعلى سعر اليوم · هدف +1%% · وقف −0.8%%. الشروط: ارتفاع 0.5–4%% · إغلاق قرب أعلى اليوم · سيولة ≥ 1م · غير مختبرة</div></div></div>
 <div class="f">تحليل وصفي وليس توصية شراء أو بيع · الاختبار التجريبي ورقي ولا يُحكم عليه قبل 30 إشارة مغلقة لكل قاعدة</div>
 </body></html>""" % (d["date"], health, d["traded"], d["universe"],
         r1.get("closed", "؟"), r2.get("closed", "؟"),
-        lines(d["gainers"], "ch"), lines(d["losers"], "ch"), lines(d["top_value"], "v"), lines(d.get("watch", []), "ch"))
+        lines(d["gainers"], "ch"), lines(d["losers"], "ch"), lines(d["top_value"], "v"), wlines(d.get("watch", [])))
 
 def main():
     d = build()
