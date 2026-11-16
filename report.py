@@ -20,18 +20,20 @@ def build():
         r = adx.get(ALIAS.get(s, s))
         if not r: missing.append("ADX:" + s); continue
         last, prev = num(r.get("last")), num(r.get("previousClose"))
-        if last > 0 and prev > 0: rows.append(dict(m="ADX", s=s, last=last, ch=(last / prev - 1) * 100, v=num(r.get("value"))))
+        if last > 0 and prev > 0: rows.append(dict(m="ADX", s=s, last=last, ch=(last / prev - 1) * 100, v=num(r.get("value")), hi=num(r.get("high")), lo=num(r.get("low"))))
     dfm = {r["id"]: r for r in j["sources"]["dfm"]["parts"]["stocks"]}
     for s in U["DFM"]:
         r = dfm.get(s)
         if not r: missing.append("DFM:" + s); continue
         last = num(r.get("lastradeprice")) or num(r.get("closingprice")); prev = num(r.get("previousclosingprice"))
-        if last > 0 and prev > 0: rows.append(dict(m="DFM", s=s, last=last, ch=(last / prev - 1) * 100, v=num(r.get("totalvalue"))))
+        if last > 0 and prev > 0: rows.append(dict(m="DFM", s=s, last=last, ch=(last / prev - 1) * 100, v=num(r.get("totalvalue")), hi=num(r.get("highestprice")), lo=num(r.get("lowestprice"))))
     universe_n = len(U["ADX"]) + len(U["DFM"])
     traded = [r for r in rows if r["v"] > 0]
     gain = sorted(traded, key=lambda r: -r["ch"])[:5]
     lose = sorted(traded, key=lambda r: r["ch"])[:5]
     val = sorted(traded, key=lambda r: -r["v"])[:5]
+    def pos(r): return (r["last"] - r["lo"]) / (r["hi"] - r["lo"]) if r["hi"] > r["lo"] > 0 else 0
+    watch = sorted([r for r in traded if 0.5 <= r["ch"] <= 4 and r["v"] >= 1e6 and pos(r) >= 0.7], key=lambda r: -r["v"])[:5]
     core = [r for r in rows if r["m"] == "ADX" and r["s"] in U["CORE10"]]
     core.sort(key=lambda r: -r["ch"])
     try: fs = json.load(open(os.path.join(ROOT, "forward", "summary.json"), encoding="utf-8"))["rules"]
@@ -39,7 +41,7 @@ def build():
     now = datetime.now(timezone.utc)
     fresh = ts[:10] == now.strftime("%Y-%m-%d") and ts[11:16] >= "10:30"
     return dict(date=ts[:10], ts_utc=ts, collector_ok=fresh, universe=universe_n, priced=len(rows), traded=len(traded), missing=missing,
-                gainers=gain, losers=lose, top_value=val, core10=core, forward=fs)
+                gainers=gain, losers=lose, top_value=val, watch=watch, core10=core, forward=fs)
 
 def fmt_ch(x): return ("+" if x >= 0 else "−") + "%.2f%%" % abs(x)
 def fmt_v(v): return ("%.1f م" % (v / 1e6)) if v >= 1e6 else ("%d ألف" % round(v / 1e3))
@@ -80,10 +82,11 @@ body{width:900px;background:#0f1b2d;font-family:"Noto Sans Arabic","Noto Naskh A
 <div class="col"><div class="ct">🔴 الأكثر انخفاضًا</div>%s</div>
 </div>
 <div class="cols"><div class="col"><div class="ct">💧 الأعلى سيولة (قيمة التداول)</div>%s</div></div>
+<div class="cols"><div class="col"><div class="ct">👁 قائمة مراقبة لليوم التالي (وصفية، ليست توصية)</div>%s<div class="l" style="padding:6px 0">الشروط: ارتفاع 0.5–4%% · إغلاق قرب أعلى اليوم · سيولة ≥ 1م · غير مختبرة</div></div></div>
 <div class="f">تحليل وصفي وليس توصية شراء أو بيع · الاختبار التجريبي ورقي ولا يُحكم عليه قبل 30 إشارة مغلقة لكل قاعدة</div>
 </body></html>""" % (d["date"], health, d["traded"], d["universe"],
         r1.get("closed", "؟"), r2.get("closed", "؟"),
-        lines(d["gainers"], "ch"), lines(d["losers"], "ch"), lines(d["top_value"], "v"))
+        lines(d["gainers"], "ch"), lines(d["losers"], "ch"), lines(d["top_value"], "v"), lines(d.get("watch", []), "ch"))
 
 def main():
     d = build()
