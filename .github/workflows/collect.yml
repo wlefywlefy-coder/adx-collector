@@ -34,7 +34,7 @@ jobs:
               python collect.py || echo "collect failed"
               python forward.py . || echo "forward failed"
               if [ $HM -ge 1040 ]; then python report.py . || echo "report failed"; fi
-              git add data forward report
+              mkdir -p data forward report; git add -A data forward report
               git commit -m snapshot || echo "nothing to commit"
               git pull --rebase || true
               git push || true
