@@ -115,7 +115,7 @@ def build():
     prev = [d for d in sorted(log) if d < day and any(i.get("result") for i in log[d])]
     watch_eval = [dict(s=i["s"], m=i["m"], nom_day=d, reason=i["reason"], **i["result"]) for d in prev[-1:] for i in log[d] if i.get("result")]
     for r in watch: r["reason"] = reason(r)
-    tb = ["قائمة مراقبة لغدٍ (وصفية، غير مختبرة؛ الدخول = كسر أعلى سعر اليوم، هدف +1%، وقف -0.8%، وتكلفة الذهاب والإياب حسب مصرف أبوظبي الإسلامي: ADX نحو %.2f%% و DFM نحو %.2f%% شاملة الرسوم وVAT والفارق السعري، ولم تُخصم من المستويات)" % (rt_cost("ADX") * 100, rt_cost("DFM") * 100)]
+    tb = ["قائمة مراقبة لغدٍ (وصفية، غير مختبرة؛ الدخول = كسر أعلى سعر اليوم، هدف +1%%، وقف -0.8%%، وتكلفة الذهاب والإياب حسب مصرف أبوظبي الإسلامي: ADX نحو %.2f%% و DFM نحو %.2f%% شاملة الرسوم وVAT والفارق السعري، ولم تُخصم من المستويات)" % (rt_cost("ADX") * 100, rt_cost("DFM") * 100)]
     for r in watch: tb.append("%s: دخول فوق %s | هدف %s | وقف %s | السبب: %s" % (r["s"], r["entry"], r["tgt"], r["stp"], r["reason"]))
     if not watch: tb.append("لا يوجد سهم يحقق الشروط اليوم")
     if watch_eval:
