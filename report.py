@@ -73,6 +73,30 @@ def reason(r):
     p = (r["last"] - r["lo"]) / (r["hi"] - r["lo"]) * 100 if r["hi"] > r["lo"] else 0
     return "ارتفع %.1f%% وأغلق عند %d%% من مدى اليوم مع سيولة %.1f م" % (r["ch"], p, r["v"] / 1e6)
 
+
+def value_series(day, m, s):
+    import glob
+    out = []
+    for p in sorted(glob.glob(os.path.join(ROOT, "data", day, "????.json"))):
+        try:
+            j = json.load(open(p, encoding="utf-8"))
+            if m == "ADX":
+                r = {x["companySymbol"]: x for x in j["sources"]["adx"]["parts"]["stocks"]["response"]["results"]}.get(ALIAS.get(s, s)); v = num(r.get("value")) if r else 0
+            else:
+                r = {x["id"]: x for x in j["sources"]["dfm"]["parts"]["stocks"]}.get(s); v = num(r.get("totalvalue")) if r else 0
+            out.append(v)
+        except Exception: continue
+    return out
+
+def spiky(day, r):
+    """Devil filter: one snapshot interval carrying >40% of the day's total traded value = isolated spike, not steady build-up."""
+    try:
+        v = value_series(day, r["m"], r["s"])
+        if len(v) < 6 or v[-1] <= 0: return False
+        return max(b - a for a, b in zip(v, v[1:])) > 0.4 * v[-1]
+    except Exception:
+        return False
+
 def build():
     j = json.load(open(os.path.join(ROOT, "data", "latest.json"), encoding="utf-8"))
     ts = j["ts_utc"]
@@ -95,7 +119,8 @@ def build():
     lose = sorted(traded, key=lambda r: r["ch"])[:5]
     val = sorted(traded, key=lambda r: -r["v"])[:5]
     def pos(r): return (r["last"] - r["lo"]) / (r["hi"] - r["lo"]) if r["hi"] > r["lo"] > 0 else 0
-    watch = sorted([r for r in traded if 0.5 <= r["ch"] <= 4 and r["v"] >= 1e6 and pos(r) >= 0.7], key=lambda r: -r["v"])[:5]
+    watch = sorted([r for r in traded if 0.5 <= r["ch"] <= 4 and r["v"] >= 1e6 and pos(r) >= 0.7], key=lambda r: -r["v"])
+    watch = [r for r in watch if not spiky(ts[:10], r)][:5]
     for r in watch: r["entry"] = r["hi"]; r["tgt"] = round(r["hi"] * 1.01, 3); r["stp"] = round(r["hi"] * 0.992, 3)
     core = [r for r in rows if r["m"] == "ADX" and r["s"] in U["CORE10"]]
     core.sort(key=lambda r: -r["ch"])
@@ -176,7 +201,7 @@ body{width:900px;background:#0f1b2d;font-family:"Noto Sans Arabic","Noto Naskh A
 <div class="col"><div class="ct">🔴 الأكثر انخفاضًا</div>%s</div>
 </div>
 <div class="cols"><div class="col"><div class="ct">💧 الأعلى سيولة (قيمة التداول)</div>%s</div></div>
-<div class="cols"><div class="col"><div class="ct">👁 قائمة مراقبة لليوم التالي (وصفية، ليست توصية)</div>%s<div class="l" style="padding:6px 0">التكلفة ذهابًا وإيابًا (مصرف أبوظبي الإسلامي): ADX ~0.66%% · DFM ~0.92%% · مستوى الدخول = كسر أعلى سعر اليوم · هدف +1%% · وقف −0.8%%. الشروط: ارتفاع 0.5–4%% · إغلاق قرب أعلى اليوم · سيولة ≥ 1م · غير مختبرة</div></div></div>
+<div class="cols"><div class="col"><div class="ct">👁 قائمة مراقبة لليوم التالي (وصفية، ليست توصية)</div>%s<div class="l" style="padding:6px 0">التكلفة ذهابًا وإيابًا (مصرف أبوظبي الإسلامي): ADX ~0.66%% · DFM ~0.92%% · مستوى الدخول = كسر أعلى سعر اليوم · هدف +1%% · وقف −0.8%%. الشروط: لا قفزة سيولة مفاجئة · ارتفاع 0.5–4%% · إغلاق قرب أعلى اليوم · سيولة ≥ 1م · غير مختبرة</div></div></div>
 <div class="f">تحليل وصفي وليس توصية شراء أو بيع · الاختبار التجريبي ورقي ولا يُحكم عليه قبل 30 إشارة مغلقة لكل قاعدة</div>
 </body></html>""" % (d["date"], health, d["traded"], d["universe"],
         r1.get("closed", "؟"), r2.get("closed", "؟"),
