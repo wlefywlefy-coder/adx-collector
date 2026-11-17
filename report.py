@@ -121,7 +121,7 @@ def build():
     def pos(r): return (r["last"] - r["lo"]) / (r["hi"] - r["lo"]) if r["hi"] > r["lo"] > 0 else 0
     watch = sorted([r for r in traded if 0.5 <= r["ch"] <= 4 and r["v"] >= 1e6 and pos(r) >= 0.7], key=lambda r: -r["v"])
     watch = [r for r in watch if not spiky(ts[:10], r)][:5]
-    for r in watch: r["entry"] = r["hi"]; r["tgt"] = round(r["hi"] * 1.01, 3); r["stp"] = round(r["hi"] * 0.992, 3)
+    for r in watch: lv = max(r["hi"], r["last"]); r["entry"] = lv; r["tgt"] = round(lv * 1.01, 3); r["stp"] = round(lv * 0.992, 3)
     core = [r for r in rows if r["m"] == "ADX" and r["s"] in U["CORE10"]]
     core.sort(key=lambda r: -r["ch"])
     try: fs = json.load(open(os.path.join(ROOT, "forward", "summary.json"), encoding="utf-8"))["rules"]
