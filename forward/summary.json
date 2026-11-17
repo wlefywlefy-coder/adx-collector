@@ -1,31 +1,31 @@
 {
- "updated_utc": "2026-11-17T10:35:43+00:00",
+ "updated_utc": "2026-11-17T10:47:55+00:00",
  "rules": {
   "R1": {
-   "closed": 1,
-   "open": 4,
-   "mean_net": -0.01929,
-   "win": 0.0,
-   "profit_factor": 0.0,
-   "mean_excess_vs_ew": -0.01508,
+   "closed": 5,
+   "open": 0,
+   "mean_net": -0.00687,
+   "win": 0.4,
+   "profit_factor": 0.21,
+   "mean_excess_vs_ew": -0.0076,
    "judgeable": false
   },
   "R2": {
-   "closed": 1,
-   "open": 2,
-   "mean_net": -0.01929,
-   "win": 0.0,
-   "profit_factor": 0.0,
-   "mean_excess_vs_ew": -0.01508,
+   "closed": 3,
+   "open": 0,
+   "mean_net": -0.01015,
+   "win": 0.333,
+   "profit_factor": 0.118,
+   "mean_excess_vs_ew": -0.00893,
    "judgeable": false
   },
   "ALL": {
-   "closed": 2,
-   "open": 6,
-   "mean_net": -0.01929,
-   "win": 0.0,
-   "profit_factor": 0.0,
-   "mean_excess_vs_ew": -0.01508,
+   "closed": 8,
+   "open": 0,
+   "mean_net": -0.0081,
+   "win": 0.375,
+   "profit_factor": 0.169,
+   "mean_excess_vs_ew": -0.0081,
    "judgeable": false
   }
  }
