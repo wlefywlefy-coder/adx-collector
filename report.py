@@ -39,6 +39,17 @@ def day_series(day, m, s):
         except Exception: continue
     return out
 
+def prev_close(day, m, s):
+    import glob
+    ps = sorted(glob.glob(os.path.join(ROOT, "data", day, "????.json")))
+    if not ps: return 0
+    try:
+        j = json.load(open(ps[0], encoding="utf-8"))
+        if m == "ADX":
+            r = {x["companySymbol"]: x for x in j["sources"]["adx"]["parts"]["stocks"]["response"]["results"]}.get(ALIAS.get(s, s)); return num(r.get("previousClose")) if r else 0
+        r = {x["id"]: x for x in j["sources"]["dfm"]["parts"]["stocks"]}.get(s); return num(r.get("previousclosingprice")) if r else 0
+    except Exception: return 0
+
 def evaluate_watch(log, today):
     import glob
     days = sorted(os.path.basename(d) for d in glob.glob(os.path.join(ROOT, "data", "????-??-??")))
@@ -51,7 +62,8 @@ def evaluate_watch(log, today):
             nd = nxt[0]
             ser = day_series(nd, it["m"], it["s"])
             if not ser or ser[-1][0] < "1045": continue   # next day not finished yet
-            ent = it["entry"]; trig = None; res = None
+            pcl = prev_close(nd, it["m"], it["s"])
+            ent = max(it["entry"], pcl); trig = None; res = None   # entry level cannot be below the real previous close (snapshot precedes closing auction)
             for hhmm, v in ser:
                 if trig is None:
                     if v > ent: trig = (hhmm, v)
