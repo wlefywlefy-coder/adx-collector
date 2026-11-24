@@ -1,9 +1,9 @@
 {
- "updated_utc": "2026-11-24T07:57:29+00:00",
+ "updated_utc": "2026-11-24T08:09:44+00:00",
  "rules": {
   "R1": {
    "closed": 15,
-   "open": 6,
+   "open": 7,
    "mean_net": -0.00699,
    "win": 0.4,
    "profit_factor": 0.189,
@@ -21,7 +21,7 @@
   },
   "ALL": {
    "closed": 23,
-   "open": 9,
+   "open": 10,
    "mean_net": -0.00726,
    "win": 0.391,
    "profit_factor": 0.18,
