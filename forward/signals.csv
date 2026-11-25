@@ -35,3 +35,4 @@ id,day,rule,sym,entry_hhmm,entry,target,stop,status,exit_hhmm,exit,exit_reason,n
 2026-11-25_ADIB_R1,2026-11-25,R1,ADIB,0631,24.82,25.0682,24.6214,open,,,,,,
 2026-11-25_ADNOCGAS_R1,2026-11-25,R1,ADNOCGAS,0631,3.46,3.4946,3.4323,open,,,,,,
 2026-11-25_ALDAR_R1,2026-11-25,R1,ALDAR,0631,8.87,8.9587,8.799,open,,,,,,
+2026-11-25_ADIB_R2,2026-11-25,R2,ADIB,0656,25.02,25.2702,24.8198,open,,,,,,
