@@ -42,3 +42,4 @@ id,day,rule,sym,entry_hhmm,entry,target,stop,status,exit_hhmm,exit,exit_reason,n
 2026-11-27_BOROUGE_R1,2026-11-27,R1,BOROUGE,0654,2.38,2.4038,2.361,open,,,,,,
 2026-11-27_ADNOCLS_R1,2026-11-27,R1,ADNOCLS,0706,8.01,8.0901,7.9459,open,,,,,,
 2026-11-27_ADNOCLS_R2,2026-11-27,R2,ADNOCLS,0706,8.01,8.0901,7.9459,open,,,,,,
+2026-11-27_ALDAR_R1,2026-11-27,R1,ALDAR,0807,8.95,9.0395,8.8784,open,,,,,,
